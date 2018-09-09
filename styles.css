@@ -1,0 +1,47 @@
+@media all and (max-width: 938px) {
+    .index-compte-rebour-hideMyText {
+        display: none;
+    }
+}
+
+@media all and (max-width: 708px) {
+    .index-compte-rebour-hideMyClock {
+        display: none;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .index-map-constrainMyMap {
+        display: none;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .index-map-showMyMap {
+        display: inherit;
+    }
+}
+
+@media all and (min-width: 649px) {
+    .index-map-showMyMap {
+        display: none;
+    }
+}
+
+
+.index-map-constrainMyMap {
+    max-height: 450px;
+    max-width: 650px;
+}
+
+/* ATTENTION, MODIFICATION DE BOOTSTRAP MEME */
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
