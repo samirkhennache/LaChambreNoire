@@ -97,13 +97,25 @@
 
         <div class="row pt-4 pd-3">
 
-            <div class='col-12 d-flex justify-content-center align-items-center'>
-                    <p class="index-compte-rebour-hideMyText">Il te reste</p>
-            <div class="clock index-compte-rebour-hideMyClock" style="margin:2em;"></div>
-            <div class="message"></div>
-                    <p class="index-compte-rebour-hideMyText">pour percer le mystère.</p>
-            </div>
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <p class="index-compte-rebour-showMyText index-compte-rebour-hideMyClock">Il te reste</p>
+          </div>
 
+          <div class='col-12 d-flex justify-content-center align-items-center'>
+            <p class="index-compte-rebour-hideMyText-gauche">Il te reste</p>
+        
+            <div class="index-no-wrap-clock">
+              <div class="clock index-compte-rebour-hideMyClock" style="margin:2em;"></div>
+            </div>
+        
+            <div class="message"></div>
+            <p class="index-compte-rebour-hideMyText-droite">pour percer le mystère.</p>
+          </div>
+
+          <div class="col-12 d-flex justify-content-center align-items-center index-compte-rebour-showMyText">
+            <p class="index-compte-rebour-showMyText index-compte-rebour-hideMyClock">pour percer le mystère.</p>
+          </div>
+        
         </div>
 
     <!--
@@ -267,7 +279,7 @@
 			clock = $('.clock').FlipClock({
                 clockFace: 'DailyCounter',
                 language: 'french',
-		        autoStart: false,
+            autoStart: false,
 		        callbacks: {
 		        	stop: function() {
 		        		$('.message').html('La Chambre Noire est révélée!')
@@ -276,7 +288,7 @@
 		    });
 				    
 		    clock.setTime(440880);
-		    clock.setCountdown(true);
+        clock.setCountdown(true);
 		    clock.start();
 
 		});

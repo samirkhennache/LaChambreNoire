@@ -5,19 +5,78 @@
 	height:100px;
 }
 
-/**** CLOCK + TEXT ****/
-
-@media all and (max-width: 938px) {
-    .index-compte-rebour-hideMyText {
-        display: none;
-    }
-}
+/**** HIDE THE CLOCK ****/
 
 @media all and (max-width: 708px) {
+    .index-no-wrap-clock {
+        zoom: 0.9;
+        transform: scale(0.9);
+    }
+}
+
+@media all and (max-width: 629px) {
+    .index-no-wrap-clock {
+        zoom: 0.8;
+        transform: scale(0.8);
+    }
+}
+
+@media all and (max-width: 563px) {
+    .index-no-wrap-clock {
+        zoom: 0.7;
+        transform: scale(0.7);
+    }
+}
+
+@media all and (max-width: 495px) {
+    .index-no-wrap-clock {
+        zoom: 0.6;
+        transform: scale(0.6);
+    }
+}
+
+@media all and (max-width: 429px) {
+    .index-no-wrap-clock {
+        zoom: 0.5;
+        transform: scale(0.5);
+    }
+}
+
+@media all and (max-width: 365px) {
     .index-compte-rebour-hideMyClock {
+        display: none !important;
+    }
+}
+
+/**** SHOW/HIDE TEXT AROUND THE CLOCK ****/
+
+@media all and (max-width: 938px) {
+    .index-compte-rebour-hideMyText-gauche {
         display: none;
     }
 }
+
+@media all and (max-width: 938px) {
+    .index-compte-rebour-hideMyText-droite {
+        display: none;
+    }
+}
+
+@media all and (min-width: 938px) {
+    .index-compte-rebour-showMyText {
+        display: none;
+    }
+}
+
+@media all and (max-width: 937px) {
+    .index-compte-rebour-showMyText {
+        display: inherit;
+    }
+}
+
+
+
+
 
 /**** MAP ****/
 
