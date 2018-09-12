@@ -5,8 +5,7 @@
 	height:100px;
 }
 
-/**** MEDIA QUERIES ****/
-
+/**** CLOCK + TEXT ****/
 
 @media all and (max-width: 938px) {
     .index-compte-rebour-hideMyText {
@@ -20,38 +19,55 @@
     }
 }
 
+/**** MAP ****/
+
+.index-map-constrainMyMap {
+    width: 100%;
+    height: 100%;
+    margin-right: 2em;
+}
+
 @media all and (max-width: 650px) {
     .index-map-constrainMyMap {
         display: none;
+        height: 100%;
+        width: 100%;
     }
 }
 
-
-@media all and (max-width: 650px) {
-    .index-map-showMyMap {
-        display: inherit;
-        max-height: 450px;
+@media all and (max-width: 990px) {
+    .index-map-constrainMyMap {
+        margin-right: 0px;
         width: 100%;
+        height: 100%;
+        min-height: 400px;
     }
 }
 
 @media all and (min-width: 649px) {
     .index-map-showMyMap {
         display: none;
+        height: 100%;
+        width: 100%;
     }
 }
 
-.index-map-constrainMyMap {
-    max-height: 450px;
-    width: 100%;
-    margin-right: 2em;
-}
-
-@media all and (max-width: 990px) {
-    .index-map-constrainMyMap {
-        margin-right: 0px;
+@media all and (max-width: 650px) {
+    .index-map-showMyMap {
+        min-height: 400px;
+        height: 100%;
+        width: 100%;
+        display: inherit;
     }
 }
+
+@media all and (max-width: 430px) {
+    .index-bouton-voir-indices {
+        padding-left: 0rem!important;
+    }
+}
+
+
 
 /* ATTENTION, MODIFICATION DE BOOTSTRAP MEME */
 
