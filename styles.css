@@ -76,8 +76,6 @@
 
 
 
-
-
 /**** MAP ****/
 
 .index-map-constrainMyMap {
@@ -151,10 +149,8 @@
 	text-align: center;
 }
 
-.winner_photo{
-    /*width: 100%;
-    height: auto;*/
-    max-width: 100%;
+.winner-citation {
+    padding-right: 1em;
 }
 
 .winner_signature{
@@ -162,12 +158,29 @@
 	color: blue;
 }
 
+.winner-box-soumettre {
+    padding-right: 2em !important;
+    padding-left: 2em !important;
+}
+
 .winner_soumettre{
 	border: 5px solid black;
 	text-align: center;
 	padding-top: 30px;
-	padding-bottom: 30px;
+    padding-bottom: 30px;
 }
+
+@media all and (max-width: 979px) {
+    .winner-bouton {
+        display: none;
+    }
+}
+
+@media all and (min-width: 979px) {
+    .winner-bouton-2 {
+        display: none;
+        }
+    }
 
 
 /* SECTION FOOTER */
