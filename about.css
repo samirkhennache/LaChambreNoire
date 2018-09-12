@@ -1,0 +1,99 @@
+
+/**** MENU ****/
+
+.navbar-brand {
+	width:100px;
+	height:100px;
+}
+
+/**** PAGE ABOUT.HTML ****/
+
+
+.aboutImage {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.line-about {
+	background-color: #F2F2F2;
+}
+
+@media all and (max-width: 768px) {
+	.img-about {
+		padding-left: 0px !important;
+	}
+}
+
+@media all and (min-width: 768px) {
+	.text-about{
+		padding-top: 0px !important;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.text-about {
+		text-align: center;
+	}
+}
+
+
+/* SECTION FOOTER */
+
+.footer_body
+{
+	width: 100%;
+}
+.footer_column
+{
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+.footer_column1 a
+{
+	display: block;
+}
+.footer_column img
+{
+	width: 40px;
+	margin: 0 10px 0 10px;
+}
+footer
+{
+	background: rgb(200, 200, 200);
+	padding: 10px 0 10px 0;
+}
+.footer_marginp
+{
+	margin: 0;
+	font-size: 12px;
+	width: 100%;
+}
+.footer_social_opacity a
+{
+	opacity: 1;
+	transition: 0.3s opacity ease;
+}
+.footer_social_opacity a:hover
+{
+	opacity: 0.7;
+}
+.footer_marginp2
+{
+	margin-bottom: 5px;
+}
+.footer2
+{
+	background: rgb(230, 230, 230);
+	border
+}
+.footer_input
+{
+	margin: 3px;
+}
+@media all and (max-width: 250px)
+{
+	.footer_input
+	{
+		width: 90%;
+	}
+}
