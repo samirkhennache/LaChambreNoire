@@ -1,0 +1,204 @@
+
+/*
+##############################
+CSS ENIGME EN COURS --------------------------------------------------------------------------------------------------------------
+##############################
+*/
+.clue
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.clue a
+{
+	opacity: 1;
+	transition: 0.3s opacity ease;
+}
+.clue_number
+{
+	position: absolute;
+	/*border: 1px solid green;*/
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+.background_hover
+{
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	opacity: 0.4;
+	width: 100%;
+	height: 100%;
+}
+.background_hover2
+{
+	position: absolute;
+	background-color: black;
+	opacity: 0.7;
+	width: 100%;
+	height: 100%;
+}
+.clue_number img
+{
+	width: 50px;
+	height: 50px;
+	
+	/*border: 1px solid red;*/
+}
+.clue_number p
+{
+	/*border: 1px solid red;*/
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+.indice_hover:hover
+{
+	opacity: 0;
+}
+.enigme_cours_fluid
+{
+	margin: 0;
+	padding: 0;
+}
+.encours_carrousel_row
+{
+	border: 1px solid blue;
+}
+.encours_enigme
+{
+	margin-top: 20px;
+}
+
+.enigme_cours_img
+{
+	width: 100%;
+	height: 100%;
+}
+.encours-img
+{
+	width: 100%;
+}
+.no-gutters-enigme
+{
+	margin-right: 0;
+	margin-right: 0;
+}
+.no-gutters-enigme > [class^="col-"],
+.no-gutters-enigme > [class*="col-"]
+{
+	padding-right: 0;
+	padding-left: 0;
+}
+.encours_carousel_control_next
+{
+	border: 2px solid black;
+}
+.encours_carousel_control_prev
+{
+	border: 2px solid black;
+}
+.sr-only
+{
+	margin: 0;
+	padding: 0;
+}
+/*
+##############################
+CSS ENIGME PRECEDENTE --------------------------------------------------------------------------------------------------------------
+##############################
+*/
+[class*="past-enig-pre"]{
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.img-gagnant{
+	width:100%;
+	height: auto;
+}
+.carousel-past-img{
+	width:100%;
+	height: auto;
+}
+[class*="img-past-win"]{
+	/*margin-bottom:15px;*/
+	text-align: center;
+	padding-left:0px;
+	padding-right:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+.card{
+	width: 100%;
+	height: auto;
+}
+.prec_indice_enigme img
+{
+	width: 100%;
+	height: 100%;
+}
+.modal-dialog
+{
+	width: 100%;
+	height: auto;
+}
+.modal-content
+{
+	
+}
+.card-img-top
+{
+	width: 100%;
+}
+.button_next
+{
+	position: absolute;
+	right: -35px;
+}
+.button_prev
+{
+	position: absolute;
+	left: -35px;
+}
+.button_chevron
+{
+	width: 30px;
+	height: 30px;
+	z-index: 1000;
+	opacity: 1;
+	
+}
+@media (min-width: 1201px)
+{
+	.modal-dialog
+	{
+		min-width: 1100px;
+	}
+}
+@media (min-width: 993px) and (max-width: 1200px)
+{
+	.modal-dialog
+	{
+		min-width: 900px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px)
+{
+	.modal-dialog
+	{
+		min-width: 700px;
+	}
+}
