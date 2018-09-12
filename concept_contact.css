@@ -1,6 +1,30 @@
+
 /**** 
 H E A D E R 
 ****/
+
+/* ATTENTION, MODIFICATION DE BOOTSTRAP MEME */
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/* SECTION CONCEPT */
+
+.centrer_photo {
+    display: block;
+    margin: auto;
+    max-width: 100%
+}
+
+/**** MENU ****/
+
 
 .navbar-brand {
 	width:150px;
@@ -21,6 +45,16 @@ F I N  H E A D E R
 /**** 
 C O N T A C T 
 ****/
+/* SECTION CONCEPT */
+
+.centrer_photo {
+    display: block;
+    margin: auto;
+    max-width: 100%
+}
+
+/**** CONTACT ****/
+
 
 .contact {
 	padding: 50px 0 80px;
