@@ -13,6 +13,38 @@
 
     <div class="container-fluid">
 
+      	<!-- HEADER -->
+			<body>
+					<nav class="navbar navbar-expand-sm navbar-light bg-light">
+						
+						<img class="navbar-brand" src="http://www.dendeaproduction.com/wp-content/uploads/2018/09/Calque-0.png">
+						<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarMenu">
+
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a href="#" class="nav-link"> L'énigme du mois </a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link"> Enigmes résolues </a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link"> Règles du jeu </a>
+								</li>
+								<li class="nav-item" >
+									<a href="#" class="nav-link"> Votre solution </a>
+								</li>
+								<li class="nav-item" >
+									<a href="#" class="nav-link"> Le maître du jeu </a>
+								</li>
+							</ul>
+						</div>	
+					</nav>
+			
+		<!-- FIN HEADER -->
+
       <!--
     #######################################################
     C A R O U S E L   D E   L A   C H A M B R E   N O I R E
@@ -134,11 +166,18 @@
              La carte en 650x450 est changée par une autre map en 250x450 lorsqu'un breakpoint est atteint
         -->
 
-        <div class='col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center align-items-center pl-2 pt-3'>
+        <div class='col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center align-items-center pt-3'>
 
+          <iframe src="https://www.google.com/maps/d/embed?mid=1KMVIKgHS16P9GlCBoIMyoMlGeftSmg-H" width="1200" height="450" class="index-map-constrainMyMap"></iframe>
+
+          <iframe src="https://www.google.com/maps/d/embed?mid=1KMVIKgHS16P9GlCBoIMyoMlGeftSmg-H" width="1200" height="450" class="index-map-showMyMap"></iframe>
+
+          <!--
             <img src="https://via.placeholder.com/650x450" alt="map" class="img-fluid index-map-constrainMyMap">
 
             <img src="https://via.placeholder.com/250x450" alt="map" class="img-fluid index-map-showMyMap">
+
+          -->
 
         </div>
 
@@ -150,23 +189,68 @@
     #######################################################
     -->
 
-    <div class="row pt-4">
-
-        <div class='col-12'>
-
-            <h2 class="d-flex justify-content-center pt-3 text-center">Prêts a résoudre le mystère de la Chambre Noire ?</h2>
-
+    <article class="pt-4">
+        <h2 class="winner_section pt-4">Prêt à résoudre le mystère de la chambre noire ?</h2>	
+        <div class="row align-items-center">
+          <!--<div class="col-3 align-self-center" style="border: 1px black solid;">-->
+          <div class="col-md-3">
+            <img src="images/winner.png" class="winner_photo">	
+          </div>
+          
+          <div class="col-md-6">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+            <p class="winner_signature"><small>Paolo Catalini - Grand gagnant Aout 2018</small></small></p>
+          </div>
+          <div class="col-md-3 winner_soumettre">
+            <h2>Tu peux gagner un <br>cadeau Wild !</h2>
+            <button>Soumets ta réponse</button>
+          </div>
         </div>
-
-    </div>
+      </article>
 
     <!--
-    #######################################
-    C I T A T I O N   &   S O U M E T T R E
-    #######################################
+    ############
+    F O O T E R
+    ############
     -->
 
+    <div class="footer_body pt-4">
+          <footer class="row justify-content-center align-items-center">
+            <div class="col-md-4 footer_column">
+              <div class="row footer_column1 justify-content-center">
+                <div class="col-md-12 col-lg-5">
+                  <a href="#">L'énigme du mois</a>
+                  <a href="#">Règles du jeu</a>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                  <a href="#">Votre réponse</a>
+                  <a href="#">Le maitre du jeu</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 footer_column footer_social_opacity">
+              <p class="footer_marginp2">La chambre noire sur les réseaux sociaux</p>
+              <a href="#"><img src="images/facebook.png" alt="#"/></a>
+              <a href="#"><img src="images/instagram.png" alt="#"/></a>
+              <a href="#"><img src="images/twitter.png" alt="#"/></a>
+            </div>
+            <div class="col-md-12 col-lg-4 footer_column">
+              <p class="footer_marginp2">Recevez les derniers indices par mail</p>
     
+              <form method="post" action="#" class="footer_form">
+                <input class="footer_input" type="text" name="e-mail" id="e-mail" placeholder="@"/>
+                <input class="footer_input" type="submit" value="Envoyer"/>
+              </form>
+    
+            </div>
+          </footer>
+          <div class="row align-items-center footer2">
+              <div class="col-12 footer_column">
+                <p class="footer_marginp">Alpaga©|plan du site|mentions légales</p>
+              </div>
+        </div>
+        </div>  
+
 </div>
 
 
