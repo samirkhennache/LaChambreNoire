@@ -42,6 +42,59 @@
 							</ul>
 						</div>	
 					</nav>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="compiled/flipclock.css"> <!-- Script pour le compte a rebour -->
+      <link rel="stylesheet" href="styles.css">
+      
+      <title>La Chambre Noire</title>
+    </head>
+    <body>
+
+      <div class="container-fluid">
+
+      	<!--
+      #############
+       H E A D E R 
+       ############
+      -->
+      <header>  
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          
+          <a href="index.html"><img class="navbar-brand" src="images/logo.png"></a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="enigme-page.html" class="nav-link"> L'énigme du mois </a>
+              </li>
+              <li class="nav-item">
+                <a href="enigme-page.html#enigne_du_mois_precedent" class="nav-link"> Enigmes résolues </a>
+              </li>
+              <li class="nav-item">
+                <a href="concept_contact.html" class="nav-link"> Règles du jeu </a>
+              </li>
+              <li class="nav-item" >
+                <a href="concept_contact.html#contact" class="nav-link"> Votre solution </a>
+              </li>
+              <li class="nav-item" >
+                <a href="about.html" class="nav-link"> Le maître du jeu </a>
+              </li>
+            </ul>
+          </div>  
+        </nav>
+      </header>
+      <!--
+      ###################
+       F I N  H E A D E R 
+       ##################
+      -->
 			
 		<!-- FIN HEADER -->
 
@@ -159,13 +212,13 @@
 
               <div class=" d-flex col-xs-12 justify-content-end mt-3 mt-0">
 
-            <button type="button" class="btn btn-primary pr-3">Les règles du jeu</button>
+            <a href="concept_contact.html"><button type="button" class="btn btn-primary pr-3" href="concept_contact.html">Les règles du jeu</button></a>
 
               </div>
 
               <div class="d-flex col-xs-12 justify-content-start pl-3 pl-sm-3 mt-3 mt-0 index-bouton-voir-indices">
 
-            <button type="button" class="btn btn-secondary">Voir tous les indices</button>
+            <a href="enigme-page.html"><button type="button" class="btn btn-secondary">Voir tous les indices</button></a>
 
               </div>
 
@@ -223,8 +276,8 @@
         <div class="col-md-3 winner-box-soumettre">
           <div class="winner_soumettre">
           <h2 class="pl-1 pr-1">Tu peux gagner un cadeau Wild !</h2>
-          <button type="button" class="btn btn-primary winner-bouton">Soumets ta réponse</button>
-          <button type="button" class="btn btn-primary winner-bouton-2">Ma réponse</button>
+          <a href="concept_contact.html#contact"><button type="button" class="btn btn-primary winner-bouton">Soumets ta réponse</button></a>
+          <a href="concept_contact.html#contact"><button type="button" class="btn btn-primary winner-bouton-2">Ma réponse</button></a>
           </div>
         </div>
       </div>
@@ -241,12 +294,12 @@
             <div class="col-md-4 footer_column">
               <div class="row footer_column1 justify-content-center">
                 <div class="col-md-12 col-lg-5">
-                  <a href="#">L'énigme du mois</a>
-                  <a href="#">Règles du jeu</a>
+                  <a href="enigme-page.html">L'énigme du mois</a>
+                  <a href="concept_contact.html">Règles du jeu</a>
                 </div>
                 <div class="col-md-12 col-lg-5">
-                  <a href="#">Votre réponse</a>
-                  <a href="#">Le maitre du jeu</a>
+                  <a href="concept_contact.html#contact">Votre réponse</a>
+                  <a href="about.html">Le maitre du jeu</a>
                 </div>
               </div>
             </div>
