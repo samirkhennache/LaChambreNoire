@@ -169,6 +169,12 @@
 	color: blue;
 }
 
+@media all and (max-width: 767px) {
+.winner_photo {
+    max-width: 60%;
+    }
+}
+
 .winner-box-soumettre {
     padding-right: 2em !important;
     padding-left: 2em !important;
