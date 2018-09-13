@@ -12,7 +12,7 @@ L O G O & M E N U
     font-size: 20px;
 }
 
-@media (max-width: 648px) {
+@media (max-width: 645px) {
     .navbar-brand {
         width:80px;
         height:80px;

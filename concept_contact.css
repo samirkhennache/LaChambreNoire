@@ -1,7 +1,7 @@
 
-/**** 
+/*********** 
 H E A D E R 
-****/
+************/
 
 /* ATTENTION, MODIFICATION DE BOOTSTRAP MEME */
 
@@ -31,6 +31,7 @@ L O G O & M E N U
 .navbar-brand {
 	width:130px;
 	height:130px;
+	margin-left: 30px;
 }
 
 .navbar-nav {
@@ -41,6 +42,7 @@ L O G O & M E N U
 	.navbar-brand {
 		width:80px;
 		height:80px;
+		margin-left: 0;
 	}
 }
 /***************** 
@@ -48,9 +50,10 @@ F I N  H E A D E R
 ******************/
 
 
-/**** 
+/************* 
 C O N T A C T 
-****/
+**************/
+
 /* SECTION CONCEPT */
 
 .centrer_photo {
@@ -137,13 +140,13 @@ C O N T A C T
 
 
 
-/**** 
+/******************** 
 F I N  C O N T A C T 
-****/
+*********************/
 
-/****
+/********************
 F O O T E R 
-****/
+*********************/
 
 .footer_body
 {
@@ -205,8 +208,8 @@ footer
 }
 
 
-/****
+/*****************
 F I N  F O O T E R 
-****/
+*******************/
 
 

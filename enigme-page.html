@@ -19,35 +19,34 @@
        H E A D E R 
        ############
       -->
-    <header>  
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        
-        <img class="navbar-brand" src="images/logo.png">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
+      <header>  
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          
+          <a href="index.html"><img class="navbar-brand" src="images/logo.png"></a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
 
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="#" class="nav-link"> L'énigme du mois </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link"> Enigmes résolues </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link"> Règles du jeu </a>
-            </li>
-            <li class="nav-item" >
-              <a href="#" class="nav-link"> Votre solution </a>
-            </li>
-            <li class="nav-item" >
-              <a href="#" class="nav-link"> Le maître du jeu </a>
-            </li>
-          </ul>
-        </div>  
-      </nav>
-    </header>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="enigme-page.html" class="nav-link"> L'énigme du mois </a>
+              </li>
+              <li class="nav-item">
+                <a href="enigme-page.html#enigne_du_mois_precedent" class="nav-link"> Enigmes résolues </a>
+              </li>
+              <li class="nav-item">
+                <a href="concept_contact.html" class="nav-link"> Règles du jeu </a>
+              </li>
+              <li class="nav-item" >
+                <a href="concept_contact.html#contact" class="nav-link"> Votre solution </a>
+              </li>
+              <li class="nav-item" >
+                <a href="about.html" class="nav-link"> Le maître du jeu </a>
+              </li>
+            </ul>
+          </div>  
+        </nav>
       <!--
       ###################
        F I N  H E A D E R 
@@ -63,12 +62,9 @@
       <div class="body_enigme_cours">
 
       <section class="container-fluid"">
-        <div class="row encours_enigme">
-          <div class="col"> 
-            <h2>L'énigme du mois</h2>
-          </div>
+        <div class="alert alert-secondary titre_h2_enigme" role="alert">
+           <h2>L'égnime du mois</h2>
         </div>
-        <hr/>
         <div class="row encours_titre_enigme">
           <div class="col-lg-4">
               <h3>Titre de l'énigme</h3>
@@ -430,27 +426,61 @@
                <!--fin modale-->   
               </div>
             </div>
-            <!--#### FIN 12 ####-->
-
-
-            
-  
-            
+            <!--#### FIN 12 ####-->      
+          </div><!--end div row photos enigme en cours-->
+          <!--####### CARTE ENIGME EN COURS #######-->
+          <div class="row no-gutters-enigme encours_photos_enigme">
+            <div class="col-12 encours_indice_enigme encours_maps">
+              <img class="carte_cours_img" src="images/carte_enigme.png" alt="#"/>
+              <a href="#encours_myModal1" data-toggle="modal" data-target="#encours_myModal1">
+                <div id="number_indice1" class="number_indice_hover">
+                  <img src="images/one.png"/>
+                  <img src="images/maps_point.png" alt="#"/>
+                </div>
+              </a>
+              <a href="#encours_myModal2" data-toggle="modal" data-target="#encours_myModal2">
+                <div id="number_indice2" class="number_indice_hover">
+                  <img src="images/two.png"/>
+                  <img src="images/maps_point.png" alt="#"/>
+                </div>
+              </a>
+              <a href="#encours_myModal3" data-toggle="modal" data-target="#encours_myModal3">
+                <div id="number_indice3" class="number_indice_hover">
+                  <img src="images/three.png"/>
+                  <img src="images/maps_point.png" alt="#"/>
+                </div>
+              </a>
+              <a href="#encours_myModal4" data-toggle="modal" data-target="#encours_myModal4">
+                <div id="number_indice4" class="number_indice_hover">
+                  <img src="images/four.png"/>
+                  <img src="images/maps_point.png" alt="#"/>
+                </div>
+              </a>
+              <a href="#encours_myModal5" data-toggle="modal" data-target="#encours_myModal5">
+                <div id="number_indice5" class="number_indice_hover">
+                  <img src="images/five.png"/>
+                  <img src="images/maps_point.png" alt="#"/>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
+
+        </div><!--end div d-none d-block-->
       </section>
       
-      <section class="container-fluid">
+      <!--
+      ###############
+      CARROUSEL
+      ###############
+      -->
+      <section class="container-fluid enigme_cours_fluid">
 
-        <div class="row justify-content-center d-sm-block d-md-none encours_carrousel_row">
-          <div id="carouselExampleControls" class="carousel slide col-md-8 col-lg-10" data-ride="carousel">
+        <div class="row justify-content-center d-sm-block d-md-none no-gutters-enigme encours_carrousel_row">
+          <div id="carouselExampleControls" class="carousel slide col" data-ride="carousel">
 
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100 enigme_cours_img" src="images/photo12.jpg" alt="First slide">                     
-              </div>
-              <div class="carousel-item encours-img">
-                <img class="d-block w-100 enigme_cours_img" src="images/photo13.jpg" alt="Second slide">
               </div>
               <div class="carousel-item encours-img">
                 <img class="d-block w-100 enigme_cours_img" src="images/photo15.jpg" alt="Third slide">
@@ -471,13 +501,20 @@
           </div>
         </div>
       </section>
+       <!--
+      ###############
+      E N D CARROUSEL
+      ###############
+      -->
+
     <!--
     ################################
     E N I G M E  P R é C é D E N T E
     ################################
     -->
     <div class="container-fluid">
-      <div class="row past-enig-pre">
+      <div id="enigne_du_mois_precedent" class="row past-enig-pre"> 
+
         <!--présentation de l'énigme du mois prédédent-->
         <div class="col-lg-12 col-sm-12 col-xs-12">
           <h2>L'énigme du mois précédent</h2>
@@ -872,12 +909,12 @@
             <div class="col-md-4 footer_column">
               <div class="row footer_column1 justify-content-center">
                 <div class="col-md-12 col-lg-5">
-                  <a href="#">L'énigme du mois</a>
-                  <a href="#">Règles du jeu</a>
+                  <a href="enigme-page.html">L'énigme du mois</a>
+                  <a href="concept_contact.html">Règles du jeu</a>
                 </div>
                 <div class="col-md-12 col-lg-5">
-                  <a href="#">Votre réponse</a>
-                  <a href="#">Le maitre du jeu</a>
+                  <a href="concept_contact.html#contact">Votre réponse</a>
+                  <a href="about.html">Le maitre du jeu</a>
                 </div>
               </div>
             </div>
@@ -904,10 +941,10 @@
           </div>
         </div>
     </div><!--end fiv container fluid-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="compiled/flipclock.js"></script>
-     
+   
+
 </body>
 </html>
