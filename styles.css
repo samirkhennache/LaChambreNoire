@@ -1,15 +1,15 @@
 /**** MENU ****/
 
 .navbar-brand {
-    width:130px;
-    height:130px;
+    width:250px;
+    height:149px;
 }
 
 .navbar-nav {
     font-size: 20px;
 }
 
-@media (max-width: 645px) {
+@media (max-width: 800px) {
     .navbar-brand {
         width:80px;
         height:80px;
