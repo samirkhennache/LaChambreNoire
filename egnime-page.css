@@ -170,13 +170,11 @@ CSS ENIGME EN COURS ------------------------------------------------------------
 {
 	opacity: 0.7;
 }
-.encours_carousel_control_next
+#carouselExampleControls
 {
-	/*border: 2px solid black;*/
-}
-.encours_carousel_control_prev
-{
-	/*border: 2px solid black;*/
+	width: 100%;
+	margin: 0;
+	padding: 0%;
 }
 .sr-only
 {
