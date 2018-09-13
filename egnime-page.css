@@ -140,6 +140,7 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 [class*="past-enig-pre"]{
 	max-width: 100%;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .img-gagnant{
 	width:100%;
@@ -169,8 +170,11 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	width: 100%;
 	height: auto;
 }
-.prec_indice_enigme img
+.prec_indice_enigme
 {
+	width: 100%;
+}
+.prec_img_enigme{
 	width: 100%;
 	height: 100%;
 }
@@ -204,6 +208,14 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	z-index: 1000;
 	opacity: 1;
 	
+}
+.btn-see-more{
+	max-width: 100%;
+	margin-top: 30px;
+	margin-bottom:15px;
+	display: flex;
+	direction: row;
+	justify-content: center;
 }
 @media (min-width: 1201px)
 {

@@ -477,39 +477,41 @@
     ################################
     -->
     <div class="container-fluid">
-      <div class="row">
+      <div class="row past-enig-pre">
         <!--présentation de l'énigme du mois prédédent-->
-        <div class="col-lg-12 col-sm-12 col-xs-12 past-enig-pre">
+        <div class="col-lg-12 col-sm-12 col-xs-12">
           <h2>L'énigme du mois précédent</h2>
+          <hr/>
           <h3>Titre de l'énigme</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipisci</p>
         </div>
       </div>
       <!--fin de la présentation-->
       <!--nouvelle présentation de l'énigme précédente-->
-      <div class="row">
-        <div class="col-lg-12 past-enig-pre"><h2>Gagnant du mois précédent</h2></div>
+      <div class="row past-enig-pre">
+        <div class="col-lg-12 "><h2>Gagnant du mois précédent</h2></div>
       </div>
-      <div class="row">
-        <div class="col-lg-1  col-md-1 col-sm-4 col-xs-4 past-enig-pre">
+      <div class="row past-enig-pre">
+        <div class="col-lg-1  col-md-1 col-sm-4 col-xs-4">
           <h4><strong>Nom</strong></h4>
           <h4><strong>Prénom</strong></h4>
         </div>
-        <div class="col-lg-3  col-md-3 col-sm-8 col-xs-8 past-enig-pre">
+        <div class="col-lg-3  col-md-3 col-sm-8 col-xs-8">
           <div class="img-du-gagnant align-items-center"><img src="https://nsa39.casimages.com/img/2018/09/09/18090902334360102.png" alt=".img-gagnant" class="img-gagnant"></div>
         </div><!--historique de l'énigme prédédente-->
-        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 past-enig-pre ">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enimLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
         <!--fin de la présentation-->
       <!--la photos gagnante j'ai rajouter hiden-xs pour cacher l'image lorsque on passe en xs  en plus j'ai rajouté aussi past-enig-pre pour créer des marges entre les col-->
-      <div class="row">
-        <div class="col-sm-12 img-past-win d-none d-sm-block  justify-content-center past-enig-pre">
-          <img src="http://placehold.jp/1200x500.png" alt="img-gagnant" class="img-gagnant">
+      <div class="row ">
+        <div class="col-sm-12 d-none d-md-block img-past-win justify-content-center ">
+          <!--<img src="http://placehold.jp/1200x500.png" alt="img-gagnant" class="img-gagnant">-->
+           <img class="prec_img_enigme" src="images/photo12.jpg" alt="#"/>
         </div>
         <!--carousel-->   
-        <div class="col-12 d-block d-sm-none past-enig-pre">
+        <div class="col-12 d-sm-block d-md-none">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -518,13 +520,13 @@
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" src="https://via.placeholder.com/350x200" class="img-gagnant" alt="First slide">
+                      <img class="d-block w-100 prec_indice_enigme" src="images/photo11.jpg"  alt="First slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="https://via.placeholder.com/350x200" class="img-gagnant" alt="Second slide">
+                      <img class="d-block w-100 prec_indice_enigme" src="images/photo12.jpg"  alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="https://via.placeholder.com/350x200"  class="img-gagnant" alt="Third slide">
+                      <img class="d-block w-100 prec_indice_enigme" src="images/photo13.jpg"  alt="Third slide">
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -548,201 +550,317 @@
           <div class="row no-gutters prec_photos_enigme">
 
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal1">
-                <img src="images/photo11.jpg" alt="#"/>
-              </a>
-              <div class="modal fade " id="myModal1">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo11.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <div class="clue">
+                <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal1-prec">
+                  <div class="background_hover"></div>
+                    <div class="clue_number">
+                      <p class="color_clue">Indice 1</p>
+                      <img src="images/zoom_gris.png" alt="#"/>
+                    </div>
+                </a>
+                <img class="prec_img_enigme" src="images/photo11.jpg" alt="#"/>
+              
+                <div class="modal fade " id="myModal1-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                        <img class="card-img-top" src="images/photo11.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal12-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal2-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal2">
-                <img src="images/photo12.jpg" alt="#"/>
-              </a>
-              <div class="modal fade" id="myModal2">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo12.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <div class="clue">
+                  <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal2-prec">
+                    <div class="background_hover2"></div>
+                      <div class="clue_number">
+                        <p class="white_color">Indice 2</p>
+                        <img src="images/zoom.png" alt="#"/>
+                      </div>
+                  </a>
+                  <img class="prec_img_enigme" src="images/photo12.jpg" alt="#"/>
+                <div class="modal fade" id="myModal2-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                        <img class="card-img-top" src="images/photo12.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal1-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal3-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal3">
-                <img src="images/photo13.jpg" alt="#"/>
-              </a>
-              <div class="modal fade" id="myModal3">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo13.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <div class="clue">
+                <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal3-prec">
+                  <div class="background_hover"></div>
+                    <div class="clue_number">
+                      <p class="color_clue">Indice 3</p>
+                      <img src="images/zoom_gris.png" alt="#"/>
+                    </div>
+                </a>
+                <img class="prec_img_enigme" src="images/photo13.jpg" alt="#"/>
+              
+                <div class="modal fade " id="myModal3-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                        <img class="card-img-top" src="images/photo13.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal2-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal4-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal4">
-                <img src="images/photo11.jpg" alt="#"/>
-              </a>
-              <div class="modal fade" id="myModal4">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo15.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <div class="clue">
+                <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal4-prec">
+                  <div class="background_hover2"></div>
+                    <div class="clue_number">
+                      <p class="white_color">Indice 4</p>
+                      <img src="images/zoom.png" alt="#"/>
+                    </div>
+                </a>
+                <img class="prec_img_enigme" src="images/photo15.jpg" alt="#"/>
+              
+                <div class="modal fade " id="myModal4-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                        <img class="card-img-top" src="images/photo15.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal3-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal5-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>  
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal5">
-                <img src="images/photo11.jpg" alt="#"/>
-              </a>
-              <div class="modal fade" id="myModal5">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo11.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <div class="clue">
+                <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal5-prec">
+                  <div class="background_hover2"></div>
+                    <div class="clue_number">
+                      <p class="white_color">Indice 5</p>
+                      <img src="images/zoom.png" alt="#"/>
+                    </div>
+                </a>
+                <img class="prec_img_enigme" src="images/photo11.jpg" alt="#"/>
+              
+                <div class="modal fade " id="myModal5-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                        <img class="card-img-top" src="images/photo11.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal4-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal6-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal6">
-                <img src="images/photo12.jpg" alt="#"/>
-              </a>
-              <div class="modal fade" id="myModal6">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo12.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <div class="clue">
+                <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal6-prec">
+                  <div class="background_hover"></div>
+                    <div class="clue_number">
+                      <p class="color_clue">Indice 6</p>
+                      <img src="images/zoom_gris.png" alt="#"/>
+                    </div>
+                </a>
+                <img class="prec_img_enigme" src="images/photo12.jpg" alt="#"/>
+              
+                <div class="modal fade " id="myModal6-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                        <img class="card-img-top" src="images/photo12.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal5-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal7-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal7">
-                <img src="images/photo13.jpg" alt="#"/>
-              </a>
-              <div class="modal fade" id="myModal7">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo13.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <div class="clue">
+                <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal7-prec">
+                  <div class="background_hover2"></div>
+                    <div class="clue_number">
+                      <p class="white_color">Indice 7</p>
+                      <img src="images/zoom.png" alt="#"/>
+                    </div>
+                </a>
+                <img class="prec_img_enigme" src="images/photo13.jpg" alt="#"/>
+              
+                <div class="modal fade " id="myModal7-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                        <img class="card-img-top" src="images/photo13.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal6-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal8-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal8">
-                <img src="images/photo15.jpg" alt="#"/>
-              </a>
-              <div class="modal fade" id="myModal8">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo15.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <div class="clue">
+                <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal8-prec">
+                  <div class="background_hover"></div>
+                    <div class="clue_number">
+                      <p class="color_clue">Indice 8</p>
+                      <img src="images/zoom_gris.png" alt="#"/>
+                    </div>
+                </a>
+                <img class="prec_img_enigme" src="images/photo15.jpg" alt="#"/>
+              
+                <div class="modal fade " id="myModal8-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                        <img class="card-img-top" src="images/photo15.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal7-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal9-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal9">
-                <img src="images/photo11.jpg" alt="#"/>
-              </a>
-              <div class="modal fade" id="myModal9">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo11.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <div class="clue">
+                <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal9-prec">
+                  <div class="background_hover"></div>
+                    <div class="clue_number">
+                      <p class="color_clue">Indice 9</p>
+                      <img src="images/zoom_gris.png" alt="#"/>
+                    </div>
+                </a>
+                <img class="prec_img_enigme" src="images/photo11.jpg" alt="#"/>
+              
+                <div class="modal fade " id="myModal9-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                        <img class="card-img-top" src="images/photo11.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal8-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal10-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal10">
-                <img src="images/photo12.jpg" alt="#"/>
-              </a>
-              <div class="modal fade" id="myModal10">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo12.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <div class="clue">
+                <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal10-prec">
+                  <div class="background_hover2"></div>
+                    <div class="clue_number">
+                      <p class="white_color">Indice 10</p>
+                      <img src="images/zoom.png" alt="#"/>
+                    </div>
+                </a>
+                <img class="prec_img_enigme" src="images/photo12.jpg" alt="#"/>
+              
+                <div class="modal fade " id="myModal10-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                        <img class="card-img-top" src="images/photo12.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal9-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal11-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal11">
-                <img src="images/photo13.jpg" alt="#"/>
-              </a>
-              <div class="modal fade" id="myModal11">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo13.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <div class="clue">
+                <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal11-prec">
+                  <div class="background_hover"></div>
+                    <div class="clue_number">
+                      <p class="white_color">Indice 11</p>
+                      <img src="images/zoom_gris.png" alt="#"/>
+                    </div>
+                </a>
+                <img class="prec_img_enigme" src="images/photo13.jpg" alt="#"/>
+              
+                <div class="modal fade " id="myModal11-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                        <img class="card-img-top" src="images/photo13.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal10-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal12-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
-              <a href="#"  data-toggle="modal" data-target="#myModal12">
-                <img src="images/photo15.jpg" alt="#"/>
-              </a>
-              <div class="modal fade" id="myModal12">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                  
-                    <div class="card justify-content-center">
-                      <img class="card-img-top" src="images/photo15.jpg" alt="Card image">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <div class="clue">
+                <a href="#" data-toggle="modal" data-target="#myModal12-prec">
+                  <div class="background_hover2"></div>
+                    <div class="clue_number">
+                      <p class="white_color">Map</p>
+                    </div>
+                </a>
+                <div class="modal fade " id="myModal12-prec">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                      <div class="card justify-content-center">
+                         <img class="card-img-top" src="images/find_image.jpg" alt="Card image">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal11-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
+                        <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal1-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>   
-          </div>
         </div>
       </section>
-
+     <div class="row justify-content-center past-enig-pre">
+        <div class="col-lg-3 col- btn-see-more justify-content-center "><button type="button" class="btn btn-primary btn-lg"data-toggle="collapse">Voir les mois précédents</button></div>
+      </div>
     <!--
     ############
     F O O T E R
@@ -786,66 +904,10 @@
           </div>
         </div>
     </div><!--end fiv container fluid-->
-
-
-<<<<<<< HEAD
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="compiled/flipclock.js"></script>
-      <script type="text/javascript">
-    var clock;
-    
-    $(document).ready(function() {
-      var clock;
-
-      clock = $('.clock').FlipClock({
-                clockFace: 'DailyCounter',
-                language: 'french',
-            autoStart: false,
-            callbacks: {
-              stop: function() {
-                $('.message').html('La Chambre Noire est révélée!')
-              }
-            }
-        });
-            
-        clock.setTime(440880);
-        clock.setCountdown(true);
-        clock.start();
-
-    });
-  </script>
+     
 </body>
 </html>
-=======
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="compiled/flipclock.js"></script>
-        	<script type="text/javascript">
-    		var clock;
-    		
-    		$(document).ready(function() {
-    			var clock;
-
-    			clock = $('.clock').FlipClock({
-                    clockFace: 'DailyCounter',
-                    language: 'french',
-    		        autoStart: false,
-    		        callbacks: {
-    		        	stop: function() {
-    		        		$('.message').html('La Chambre Noire est révélée!')
-    		        	}
-    		        }
-    		    });
-    				    
-    		    clock.setTime(440880);
-    		    clock.setCountdown(true);
-    		    clock.start();
-
-    		});
-    	</script>
-    </body>
-  </html>
->>>>>>> adefddd1a994f91cf4c0ae4402e144be3778ea27
