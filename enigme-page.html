@@ -63,12 +63,9 @@
       <div class="body_enigme_cours">
 
       <section class="container-fluid"">
-        <div class="row encours_enigme">
-          <div class="col"> 
-            <h2>L'énigme du mois</h2>
-          </div>
+        <div class="alert alert-secondary titre_h2_enigme" role="alert">
+           <h2>L'égnime du mois</h2>
         </div>
-        <hr/>
         <div class="row encours_titre_enigme">
           <div class="col-lg-4">
               <h3>Titre de l'énigme</h3>
@@ -430,14 +427,46 @@
                <!--fin modale-->   
               </div>
             </div>
-            <!--#### FIN 12 ####-->
-
-
-            
-  
-            
+            <!--#### FIN 12 ####-->      
+          </div><!--end div row photos enigme en cours-->
+          <!--####### CARTE ENIGME EN COURS #######-->
+          <div class="row no-gutters-enigme encours_photos_enigme">
+            <div class="col-12 encours_indice_enigme encours_maps">
+              <img class="carte_cours_img" src="images/carte_enigme.png" alt="#"/>
+              <a href="#encours_myModal1" data-toggle="modal" data-target="#encours_myModal1">
+                <div id="number_indice1" class="number_indice_hover">
+                  <img src="images/one.png"/>
+                  <img src="images/maps_point.png" alt="#"/>
+                </div>
+              </a>
+              <a href="#encours_myModal2" data-toggle="modal" data-target="#encours_myModal2">
+                <div id="number_indice2" class="number_indice_hover">
+                  <img src="images/two.png"/>
+                  <img src="images/maps_point.png" alt="#"/>
+                </div>
+              </a>
+              <a href="#encours_myModal3" data-toggle="modal" data-target="#encours_myModal3">
+                <div id="number_indice3" class="number_indice_hover">
+                  <img src="images/three.png"/>
+                  <img src="images/maps_point.png" alt="#"/>
+                </div>
+              </a>
+              <a href="#encours_myModal4" data-toggle="modal" data-target="#encours_myModal4">
+                <div id="number_indice4" class="number_indice_hover">
+                  <img src="images/four.png"/>
+                  <img src="images/maps_point.png" alt="#"/>
+                </div>
+              </a>
+              <a href="#encours_myModal5" data-toggle="modal" data-target="#encours_myModal5">
+                <div id="number_indice5" class="number_indice_hover">
+                  <img src="images/five.png"/>
+                  <img src="images/maps_point.png" alt="#"/>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
+
+        </div><!--end div d-none d-block-->
       </section>
       
       <section class="container-fluid">
@@ -788,64 +817,10 @@
     </div><!--end fiv container fluid-->
 
 
-<<<<<<< HEAD
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="compiled/flipclock.js"></script>
-      <script type="text/javascript">
-    var clock;
-    
-    $(document).ready(function() {
-      var clock;
-
-      clock = $('.clock').FlipClock({
-                clockFace: 'DailyCounter',
-                language: 'french',
-            autoStart: false,
-            callbacks: {
-              stop: function() {
-                $('.message').html('La Chambre Noire est révélée!')
-              }
-            }
-        });
-            
-        clock.setTime(440880);
-        clock.setCountdown(true);
-        clock.start();
-
-    });
-  </script>
+   
 </body>
 </html>
-=======
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="compiled/flipclock.js"></script>
-        	<script type="text/javascript">
-    		var clock;
-    		
-    		$(document).ready(function() {
-    			var clock;
-
-    			clock = $('.clock').FlipClock({
-                    clockFace: 'DailyCounter',
-                    language: 'french',
-    		        autoStart: false,
-    		        callbacks: {
-    		        	stop: function() {
-    		        		$('.message').html('La Chambre Noire est révélée!')
-    		        	}
-    		        }
-    		    });
-    				    
-    		    clock.setTime(440880);
-    		    clock.setCountdown(true);
-    		    clock.start();
-
-    		});
-    	</script>
-    </body>
-  </html>
->>>>>>> adefddd1a994f91cf4c0ae4402e144be3778ea27
