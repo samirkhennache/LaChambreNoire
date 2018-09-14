@@ -145,7 +145,7 @@ CSS ENIGME EN COURS ------------------------------------------------------------
 {
 	opacity: 0.7;
 }
-#carouselExampleControls
+#carouselExampleControls-encours
 {
 	width: 100%;
 	margin: 0;
@@ -261,10 +261,25 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 		min-width: 900px;
 	}
 }
-@media (min-width: 768px) and (max-width: 992px)
+@media (min-width: 769px) and (max-width: 992px)
 {
 	.modal-dialog
 	{
 		min-width: 700px;
+	}
+}
+@media (min-width: 576px) and (max-width: 768px)
+{
+	.modal-dialog
+	{
+		min-width: 400px;
+	}
+}
+@media (max-width: 575px)
+{
+	.modal-dialog
+	{
+		max-width: 400px;
+		margin: auto;		
 	}
 }
