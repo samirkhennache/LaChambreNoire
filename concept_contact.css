@@ -56,10 +56,16 @@ C O N T A C T
 
 /* SECTION CONCEPT */
 
+/*
 .centrer_photo {
     display: block;
     margin: auto;
     max-width: 100%
+}
+*/
+.title_roles {
+	text-align: center;
+	margin-top: 20px;
 }
 
 /**** CONTACT ****/
