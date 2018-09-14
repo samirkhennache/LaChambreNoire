@@ -11,10 +11,11 @@
 
 @media (max-width: 800px) {
     .navbar-brand {
-        width:80px;
-        height:80px;
+        width:165px;
+        height:98px;
     }
 }
+
 
 /**** HIDE THE CLOCK ****/
 
@@ -169,25 +170,39 @@
 	color: blue;
 }
 
+@media all and (max-width: 767px) {
+.winner_photo {
+    max-width: 60%;
+    }
+}
+
 .winner-box-soumettre {
     padding-right: 2em !important;
     padding-left: 2em !important;
 }
 
-.winner_soumettre{
-	border: 5px solid black;
+.winner_soumettre {
+    background-color: #E5E5E5;
 	text-align: center;
-	padding-top: 30px;
-    padding-bottom: 30px;
+	padding-top: 20%;
+    padding-bottom: 20%;
 }
 
-@media all and (max-width: 979px) {
+
+@media all and (max-width: 767px) {
+    .winner_soumettre {
+        padding: 1em;
+    }
+    
+}
+
+@media all and (max-width: 1043px) {
     .winner-bouton {
         display: none;
     }
 }
 
-@media all and (min-width: 979px) {
+@media all and (min-width: 1043px) {
     .winner-bouton-2 {
         display: none;
         }
