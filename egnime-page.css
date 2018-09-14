@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /***************** 
 L O G O & M E N U 
 ******************/
@@ -22,9 +22,6 @@ L O G O & M E N U
 /***************** 
 F I N  H E A D E R 
 ******************/
-=======
-
->>>>>>> 817b6a56632e46375be235c8b3b90f9550413ce5
 /*
 ##############################
 CSS ENIGME EN COURS --------------------------------------------------------------------------------------------------------------
@@ -189,15 +186,23 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 */
 [class*="past-enig-pre"]{
 	max-width: 100%;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	margin-top: 20px;
 }
+/* display flex pour alligenr l'image au centre */
+.last-winner{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
 .img-gagnant{
+	 
 	width:100%;
 	height: auto;
-}
+	margin-bottom: 10px;}
+
 .carousel-past-img{
-	width:100%;
+	width:80%;
 	height: auto;
 }
 [class*="img-past-win"]{
@@ -206,6 +211,7 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	padding-left:0px;
 	padding-right:0px;
 }
+/* positio du btn close de la modal*/
 .close {
   position:absolute;
   right:-30px;
@@ -264,10 +270,7 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	direction: row;
 	justify-content: center;
 }
-.alerte_enigme_prec{
-	/*margin-top:20px;*/
-
-}
+/*ajuster la taille du carousel pour avoir un plein ecran*/
 #carousel-enigme-prec{
 	width: 100%;
 	padding: 0;
@@ -292,5 +295,14 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	.modal-dialog
 	{
 		min-width: 700px;
-	}
+	} 
+ 
+}
+@media (max-width: 768px)
+{
+	/* ajuter la taille de l'image */
+	.img-gagnant{
+	width:60%;
+	height: auto;
+	margin-bottom: 10px;}
 }
