@@ -196,6 +196,11 @@
     
 }
 
+.winner-bouton2 {
+    padding: 1em;
+    margin: 1em;
+}
+
 @media all and (max-width: 1043px) {
     .winner-bouton {
         display: none;
