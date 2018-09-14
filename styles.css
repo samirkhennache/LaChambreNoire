@@ -11,10 +11,11 @@
 
 @media (max-width: 800px) {
     .navbar-brand {
-        width:80px;
-        height:80px;
+        width:165px;
+        height:98px;
     }
 }
+
 
 /**** HIDE THE CLOCK ****/
 
