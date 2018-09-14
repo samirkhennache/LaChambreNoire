@@ -1,3 +1,6 @@
+h2 {
+	font-family: 'Quicksand', sans-serif !important;
+}
 
 /*********** 
 H E A D E R 
@@ -101,12 +104,12 @@ C O N T A C T
 }
 
 .img-paris {
-	width: 100%;
-	margin-top: 40px;
-	max-width: 100%;
-	display: flex;
+	height: 500px;
+	width: 500px;
+	margin-top: 20px;
 	
 }
+
 
 @media (max-width: 766px) {
 	.img-paris {
@@ -114,31 +117,8 @@ C O N T A C T
 	}
 }
 
-@media (min-width: 1066px) {
-	.img-paris {
-		max-height: 500px;
-		max-width: 500px;
-		margin-left: 20px;
-	}
-}
 
 
-
-@media (min-width: 1066px) {
-	.img-paris {
-		max-height: 500px;
-		max-width: 500px;
-		margin-left: 20px;
-	}
-}
-
-@media (max-width: 1066px) {
-	.img-paris {
-		max-height: 500px;
-		max-width: 500px;
-		margin-left: 20px;
-	}
-}
 
 
 
