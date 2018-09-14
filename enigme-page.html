@@ -77,7 +77,7 @@
 
       <section class="container-fluid enigme_cours_fluid">
 
-        <div class="d-none d-md-block">
+        <div class="d-none d-md-block" >
 
           <div class="row no-gutters-enigme encours_photos_enigme">
 
@@ -91,11 +91,13 @@
                     <img src="images/zoom_gris.png" alt="#"/>
                   </div>
                 </a>
-                <img class="enigme_cours_img" src="images/photo11.jpg" alt="#"/>
-                <!--Ma modale-->
-                <div class="modal fade" id="encours_myModal1">
+                <img class="enigme_cours_img" src="images/photo11.jpg" alt="#"/> 
+              </div>
+            </div>
+            <!--Ma modale-->
+                <div class="modal fade justify-content-center" id="encours_myModal1">
                   <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">                  
+                    <div class="modal-content modal-content-centered">                  
                       <div class="card justify-content-center">
                         <img class="card-img-top" src="images/photo11.jpg" alt="Card image">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -105,9 +107,7 @@
                     </div>
                   </div>
                 </div>
-               <!--fin modale-->   
-              </div>
-            </div>
+               <!--fin modale-->  
             <!--#### FIN 1 ####-->
 
             <!--#### COL EN COURS 2 ####-->
@@ -121,7 +121,9 @@
                   </div>
                 </a>
                 <img class="enigme_cours_img" src="images/photo12.jpg" alt="#"/>
-                <!--Ma modale-->
+              </div>
+            </div>
+            <!--Ma modale-->
                 <div class="modal fade" id="encours_myModal2">
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">                  
@@ -135,8 +137,6 @@
                   </div>
                 </div>
                 <!--fin modale-->
-              </div>
-            </div>
             <!--#### FIN 2 ####-->
 
             <!--#### COL EN COURS 3 ####-->
@@ -429,7 +429,7 @@
             <!--#### FIN 12 ####-->      
           </div><!--end div row photos enigme en cours-->
           <!--####### CARTE ENIGME EN COURS #######-->
-          <div class="row no-gutters-enigme encours_photos_enigme">
+          <div class="row no-gutters-enigme d-none d-md-block encours_photos_enigme">
             <div class="col-12 encours_indice_enigme encours_maps">
               <img class="carte_cours_img" src="images/carte_enigme.png" alt="#"/>
               <a href="#encours_myModal1" data-toggle="modal" data-target="#encours_myModal1">
@@ -463,20 +463,21 @@
                 </div>
               </a>
             </div>
-          </div>
+          </div><!--end MAPS-->
 
         </div><!--end div d-none d-block-->
       </section>
       
-      <!--
-      ###############
-      CARROUSEL
-      ###############
-      -->
+      
       <section class="container-fluid enigme_cours_fluid">
 
+          <!--
+        ###############
+        CARROUSEL
+        ###############
+        -->
         <div class="row justify-content-center d-sm-block d-md-none no-gutters-enigme encours_carrousel_row">
-          <div id="carouselExampleControls" class="carousel slide col" data-ride="carousel">
+          <div id="carouselExampleControls-encours" class="carousel slide col" data-ride="carousel">
 
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -490,22 +491,61 @@
               </div>
             </div>
 
-            <a class="carousel-control-prev encours_carousel_control_prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <a class="carousel-control-prev encours_carousel_control_prev" href="#carouselExampleControls-encours" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next encours_carousel_control_next" href="#carouselExampleControls" role ="button" data-slide="next">
+            <a class="carousel-control-next encours_carousel_control_next" href="#carouselExampleControls-encours" role ="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
           </div>
         </div>
-      </section>
-       <!--
-      ###############
-      E N D CARROUSEL
-      ###############
-      -->
+            <!--
+        ###############
+        E N D CARROUSEL
+        ###############
+        -->
+        <!--####### CARTE ENIGME EN COURS #######-->
+        <div class="row no-gutters-enigme encours_photos_enigme d-sm-block d-md-none">
+          <div class="col-12 encours_indice_enigme encours_maps">
+            <img class="carte_cours_img" src="images/carte_enigme.png" alt="#"/>
+            <a href="#encours_myModal1" data-toggle="modal" data-target="#encours_myModal1">
+              <div id="number_indice1" class="number_indice_hover">
+                <img src="images/one.png"/>
+                <img src="images/maps_point.png" alt="#"/>
+              </div>
+            </a>
+            <a href="#encours_myModal2" data-toggle="modal" data-target="#encours_myModal2">
+              <div id="number_indice2" class="number_indice_hover">
+                <img src="images/two.png"/>
+                <img src="images/maps_point.png" alt="#"/>
+              </div>
+            </a>
+            <a href="#encours_myModal3" data-toggle="modal" data-target="#encours_myModal3">
+              <div id="number_indice3" class="number_indice_hover">
+                <img src="images/three.png"/>
+                <img src="images/maps_point.png" alt="#"/>
+              </div>
+            </a>
+            <a href="#encours_myModal4" data-toggle="modal" data-target="#encours_myModal4">
+              <div id="number_indice4" class="number_indice_hover">
+                <img src="images/four.png"/>
+                <img src="images/maps_point.png" alt="#"/>
+              </div>
+            </a>
+            <a href="#encours_myModal5" data-toggle="modal" data-target="#encours_myModal5">
+              <div id="number_indice5" class="number_indice_hover">
+                <img src="images/five.png"/>
+                <img src="images/maps_point.png" alt="#"/>
+              </div>
+            </a>
+          </div>
+        </div><!--end MAPS-->
+
+      </section>   
+
+
 
     <!--
     ################################
