@@ -23,7 +23,7 @@ H E A D E R
     max-width: 100%
 }
 
-/***************** 
+/*****************#### 
 L O G O & M E N U 
 ******************/
 
@@ -95,12 +95,10 @@ C O N T A C T
 }
 
 .img-paris {
-
 	width: 100%;
 	margin-top: 40px;
 	max-width: 100%;
 	display: flex;
-
 	
 }
 
@@ -122,7 +120,6 @@ C O N T A C T
 
 @media (min-width: 1066px) {
 	.img-paris {
-
 		max-height: 500px;
 		max-width: 500px;
 		margin-left: 20px;
