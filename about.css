@@ -1,9 +1,33 @@
+h2 {
+	font-family: 'Quicksand', sans-serif;
+}
 
 /**** MENU ****/
 
 .navbar-brand {
-	width:100px;
-	height:100px;
+    width:250px;
+    height:149px;
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+
+@media (max-width: 800px) {
+    .navbar-brand {
+        width:165px;
+        height:98px;
+    }
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 /**** PAGE ABOUT.HTML *****/

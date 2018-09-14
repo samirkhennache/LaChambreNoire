@@ -11,12 +11,18 @@
 
 @media (max-width: 800px) {
     .navbar-brand {
-        width:80px;
-        height:80px;
+        width:165px;
+        height:98px;
     }
 }
 
+
 /**** HIDE THE CLOCK ****/
+
+.index-texte-compte-rebour {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+}
 
 @media all and (max-width: 708px) {
     .index-no-wrap-clock {
@@ -61,31 +67,33 @@
 
 /**** SHOW/HIDE TEXT AROUND THE CLOCK ****/
 
-@media all and (max-width: 938px) {
+@media all and (max-width: 1077px) {
     .index-compte-rebour-hideMyText-gauche {
         display: none;
     }
 }
 
-@media all and (max-width: 938px) {
+@media all and (max-width: 1077px) {
     .index-compte-rebour-hideMyText-droite {
         display: none;
     }
 }
 
-@media all and (min-width: 938px) {
+@media all and (min-width: 1077px) {
     .index-compte-rebour-showMyText {
         display: none;
     }
 }
 
-@media all and (max-width: 937px) {
+@media all and (max-width: 1077px) {
     .index-compte-rebour-showMyText {
         display: inherit;
     }
 }
 
-
+h2 {
+	font-family: 'Quicksand', sans-serif;
+}
 
 /**** MAP ****/
 
@@ -180,20 +188,33 @@
     padding-left: 2em !important;
 }
 
-.winner_soumettre{
-	border: 5px solid black;
+.winner_soumettre {
+    background-color: #E5E5E5;
 	text-align: center;
-	padding-top: 30px;
-    padding-bottom: 30px;
+	padding-top: 20%;
+    padding-bottom: 20%;
 }
 
-@media all and (max-width: 979px) {
+
+@media all and (max-width: 767px) {
+    .winner_soumettre {
+        padding: 1em;
+    }
+    
+}
+
+.winner-bouton2 {
+    padding: 1em;
+    margin: 1em;
+}
+
+@media all and (max-width: 1043px) {
     .winner-bouton {
         display: none;
     }
 }
 
-@media all and (min-width: 979px) {
+@media all and (min-width: 1043px) {
     .winner-bouton-2 {
         display: none;
         }
