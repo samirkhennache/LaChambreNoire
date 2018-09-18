@@ -30,17 +30,18 @@ C O N C E P T
 **************/
 .centrer_photo {
     display: block;
-    max-width: 100%;
+    margin: auto;
+    max-width: 100%
 }
-/*******************
-F I N  C O N C E P T 
-********************/
 
-*/
-.title_roles {
+#title_roles {
 	text-align: center;
 	margin-top: 20px;
 }
+
+/*******************
+F I N  C O N C E P T 
+********************/
 
 
 /************* 
