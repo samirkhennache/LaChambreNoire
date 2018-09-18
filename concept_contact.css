@@ -5,32 +5,6 @@ h2 {
 /*********** 
 H E A D E R 
 ************/
-
-/* ATTENTION, MODIFICATION DE BOOTSTRAP MEME */
-
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.row {
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-/* SECTION CONCEPT */
-
-.centrer_photo {
-    display: block;
-    margin: auto;
-    max-width: 100%
-}
-
-/*****************#### 
-L O G O & M E N U 
-******************/
-
-
 .navbar-brand {
     width:250px;
     height:149px;
@@ -46,62 +20,68 @@ L O G O & M E N U
         height:98px;
     }
 }
-
-
 /***************** 
 F I N  H E A D E R 
 ******************/
 
 
-/************* 
-C O N T A C T 
+/*************
+C O N C E P T 
 **************/
-
-/* SECTION CONCEPT */
-
 .centrer_photo {
     display: block;
-    margin: auto;
-    max-width: 100%
+    max-width: 100%;
 }
+/*******************
+F I N  C O N C E P T 
+********************/
 
-/**** CONTACT ****/
 
+
+/************* 
+C O N T A C T 	
+**************/
+.display-none {
+	display: none;
+  }
 
 .contact {
-	padding: 50px 0 80px;
+	display: block;
+	width: 100%;
+	margin-top: 20px;
 }
 
 .contact h2 {
 	margin: 20px 0 20px;
-
-
+	text-align: center;
 }
 
 .contact .input-group {
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 
 .contact .input-group-lg {
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 
+
 .contact .form-check {
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 }
 
 .contact .btn {
 	border-radius: 0;
-	width: 100%
+	width: 100%;
 	font-size: 15px;
 	float: right;
+	margin-top: 15px;
 }
 
 .img-paris {
-	height: 500px;
-	width: 500px;
-	margin-top: 20px;
-	
+	display: block;
+	height: 546px;
+	max-width: 100%;
+	margin: auto;
 }
 
 
@@ -110,24 +90,22 @@ C O N T A C T
 		display: none;
 	}
 }
-
-
-
-
-
-
-
 /******************** 
 F I N  C O N T A C T 
 *********************/
 
+
+
+
 /********************
 F O O T E R 
 *********************/
-
 .footer_body
 {
 	width: 100%;
+	margin: 0;
+	padding: 0;
+
 }
 .footer_column
 {
@@ -170,11 +148,10 @@ footer
 .footer2
 {
 	background: rgb(230, 230, 230);
-	border
 }
 .footer_input
 {
-	margin: 3px;
+	margin: 0px;
 }
 @media all and (max-width: 250px)
 {
@@ -183,8 +160,6 @@ footer
 		width: 90%;
 	}
 }
-
-
 /*****************
 F I N  F O O T E R 
 *******************/
