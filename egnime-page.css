@@ -266,7 +266,10 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	padding: 0;
 	margin: 0;
 }
- 
+.background_past_enigme{
+	background-color: grey;
+	 opacity: 0.4;
+}
 @media (min-width: 1201px)
 {
 	.modal-dialog
