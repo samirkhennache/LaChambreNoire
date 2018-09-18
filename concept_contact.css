@@ -34,8 +34,7 @@ C O N C E P T
     max-width: 100%
 }
 
-/
-.title_roles {
+#title_roles {
 	text-align: center;
 	margin-top: 20px;
 }
