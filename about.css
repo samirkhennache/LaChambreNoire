@@ -62,7 +62,7 @@ h2 {
 	}
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 768px) { 
 	.about_spaces_cart{
 		margin-top: 10px !important;
 		margin-bottom: 10px !important;

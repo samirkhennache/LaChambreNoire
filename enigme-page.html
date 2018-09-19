@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="compiled/flipclock.css"> <!-- Script pour le compte a rebour -->
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="general.css">
       <link rel="stylesheet" href="egnime-page.css">
       <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
       
@@ -29,12 +29,13 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarMenu">
 
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto navbar-menu">
               <li class="nav-item">
-                <a href="enigme-page.html" class="nav-link"> L'énigme du mois </a>
+                <a href="enigme-page.html" class="nav-link menu-actif"  > L'énigme du mois </a>
               </li>
               <li class="nav-item">
-                <a href="enigme-page.html#enigne_du_mois_precedent" class="nav-link"> Enigmes résolues </a>
+                <a href="enigme-page.html#enigne_du_mois_precedent" class="nav-link"id="first-element" data-target ="#first-element"
+                > Enigmes résolues </a>
               </li>
               <li class="nav-item">
                 <a href="concept_contact.html" class="nav-link"> Règles du jeu </a>
@@ -943,7 +944,7 @@
       </section>
      <div class="row justify-content-center past-enig-pre">
         <div class="col-lg-3 col- btn-see-more justify-content-center ">
-          <button type="button" class="btn btn-primary btn-lg"data-toggle="collapse" data-target="#see-more">Voir les mois précédents</button></div>
+          <button type="button" class="btn btn-dark btn-lg"data-toggle="collapse" data-target="#see-more">Voir les mois précédents</button></div>
         </div>    
       <!--
     <div class="row justify-content-center past-enig-pre">
@@ -1346,7 +1347,7 @@
 
              </div>
              <div class="col-lg-3 col- btn-see-more justify-content-center ">
-                <button type="button" class="btn btn-dark" href="#see-more" aria-expanded="false" aria-controls="see-more"data-toggle="collapse">  Voir Moins  </button>
+                <button type="button" class="btn btn-dark" href="#see-more" aria-expanded="false" aria-controls="see-more"data-toggle="collapse">  Voir Moins </button>
             </div>
             <!-- Fin see more -->
 
