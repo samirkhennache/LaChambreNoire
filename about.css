@@ -12,9 +12,6 @@ h2 {
 .navbar-nav {
     font-size: 20px;
 }
-.navbar-menu-about{
-    text-align: center;
-}
 
 @media (max-width: 800px) {
     .navbar-brand {
@@ -55,7 +52,7 @@ h2 {
 
 @media all and (max-width: 768px) {
 	.img-about {
-		padding-left: 0px !important;
+		padding-left: 0px !important;s
 	}
 }
 
@@ -65,17 +62,19 @@ h2 {
 	}
 }
 
-@media all and (max-width: 768px) {
-	.text-about {
-		text-align: center;
+@media (max-width: 768px) { 
+	.about_spaces_cart{
+		margin-top: 10px !important;
+		margin-bottom: 10px !important;
 	}
 }
+
 
 
 /*
 Scroll
 */
- 
+
 #myBtn {
 	display: none;
 	position: fixed;
@@ -95,7 +94,7 @@ Scroll
 	background: url(https://bit.ly/2D5J6N6) no-repeat center center;
 	border: 1px solid #343434;
   }
-  
+
   #myBtn:hover {
 	background-color: blue;
   }
