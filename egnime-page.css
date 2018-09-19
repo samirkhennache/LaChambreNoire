@@ -4,6 +4,12 @@ L O G O & M E N U
 h2 {
 	font-family: 'Quicksand', sans-serif ;
 }
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
 /***************** 
 F I N  H E A D E R 
 ******************/
@@ -14,7 +20,10 @@ CSS ENIGME EN COURS ------------------------------------------------------------
 */
 .titre_h2_enigme h2
 {
-	padding-top: ;
+	/*padding-top: ;*/
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
 }
 .clue
 {
@@ -169,6 +178,15 @@ CSS ENIGME EN COURS ------------------------------------------------------------
 CSS ENIGME PRECEDENTE --------------------------------------------------------------------------------------------------------------
 ##############################
 */
+.container-enigme-prec{
+	margin-top:40px;
+}
+.alerte_enigme_prec h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+
 [class*="past-enig-pre"]{
 	max-width: 100%;
 	/*margin-bottom: 20px;*/

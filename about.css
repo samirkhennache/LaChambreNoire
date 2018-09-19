@@ -12,6 +12,9 @@ h2 {
 .navbar-nav {
     font-size: 20px;
 }
+.navbar-menu-about{
+    text-align: center;
+}
 
 @media (max-width: 800px) {
     .navbar-brand {
@@ -32,7 +35,15 @@ h2 {
 
 /**** PAGE ABOUT.HTML *****/
 
-
+.container-about{
+	margin: 0;
+	padding: 0;
+}
+.titre_h2_about h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
 .aboutImage {
 	margin-left: auto;
 	margin-right: auto;
