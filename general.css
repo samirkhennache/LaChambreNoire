@@ -822,6 +822,14 @@ F I N  C O N T A C T
 		text-align: center;
 	}
 }
+
+@media all and (min-width: 990px) and (max-width: 1250px) {
+	.about-hide {
+		display: none;)
+	}
+}
+
+
  /*******************
      Fin About      
   ******************/
