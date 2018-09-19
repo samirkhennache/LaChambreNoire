@@ -35,15 +35,16 @@ h2 {
 }
 .navbar-menu{
     text-align: center;
+
 }
-.nav-link:hover  {
+.nav-link:hover{
 
     font-weight: bold;
+   
 }
 .menu-actif{
-    font-weight: bold;
+    font-weight:bold; 
 }
-
 
 @media (max-width: 800px) {
     .navbar-brand {
@@ -623,6 +624,7 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	background-color: grey;
 	 opacity: 0.4;
 }
+
 /*
 #############
 MEDIA QUERIES ENIGMES EN COURS ET PRECEDENTES
@@ -633,6 +635,7 @@ MEDIA QUERIES ENIGMES EN COURS ET PRECEDENTES
 	.modal-dialog
 	{
 		min-width: 1000px;
+
 	}
 }
 @media (min-width: 993px) and (max-width: 1200px)
@@ -640,7 +643,12 @@ MEDIA QUERIES ENIGMES EN COURS ET PRECEDENTES
 	.modal-dialog
 	{
 		min-width: 900px;
+		 
 	}
+	 .modal.left.fade.show .modal-dialog {
+    left: 0;
+	}
+}
 	.maps_enigme_en_cours
 	{
 		height: 400px;
@@ -730,9 +738,14 @@ C O N C E P T
 	height: 64px;
 }
 
+.defi {
+	font-size: 20px;
+}
+
 #title_roles {
 	text-align: center;
 	margin-top: 20px;
+	font-size: 22px;
 }
 
 /*******************
