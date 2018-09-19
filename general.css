@@ -703,9 +703,14 @@ C O N C E P T
 	height: 64px;
 }
 
+.defi {
+	font-size: 20px;
+}
+
 #title_roles {
 	text-align: center;
 	margin-top: 20px;
+	font-size: 22px;
 }
 
 /*******************
