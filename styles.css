@@ -98,6 +98,10 @@ h2 {
 	font-family: 'Quicksand', sans-serif;
 }
 
+.index_margin_title {
+    margin-bottom: 1em;
+}
+
 /**** MAP ****/
 
 .index-map-constrainMyMap {
