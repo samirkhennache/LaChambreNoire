@@ -756,6 +756,13 @@ F I N  C O N T A C T
 
 /**** PAGE ABOUT.HTML *****/
 
+.card {
+	border: none !important;
+}
+.card-img-top {
+	width: 80px;
+	height: 80px;
+}
 .container-about{
 	margin: 0;
 	padding: 0;
@@ -769,7 +776,6 @@ F I N  C O N T A C T
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .line-about {
 	background-color: #F2F2F2;
 }
