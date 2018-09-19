@@ -568,6 +568,7 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	background-color: grey;
 	 opacity: 0.4;
 }
+
 /*
 #############
 MEDIA QUERIES ENIGMES EN COURS ET PRECEDENTES
@@ -578,6 +579,7 @@ MEDIA QUERIES ENIGMES EN COURS ET PRECEDENTES
 	.modal-dialog
 	{
 		min-width: 1000px;
+
 	}
 }
 @media (min-width: 993px) and (max-width: 1200px)
@@ -585,7 +587,12 @@ MEDIA QUERIES ENIGMES EN COURS ET PRECEDENTES
 	.modal-dialog
 	{
 		min-width: 900px;
+		 
 	}
+	 .modal.left.fade.show .modal-dialog {
+    left: 0;
+	}
+}
 	.maps_enigme_en_cours
 	{
 		height: 400px;
