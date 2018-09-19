@@ -31,15 +31,16 @@ h2 {
 }
 .navbar-menu{
     text-align: center;
+
 }
-.nav-link:hover  {
+.nav-link:hover{
 
     font-weight: bold;
+   
 }
 .menu-actif{
-    font-weight: bold;
+    font-weight:bold; 
 }
-
 
 @media (max-width: 800px) {
     .navbar-brand {
