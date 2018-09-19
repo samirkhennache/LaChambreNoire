@@ -724,15 +724,16 @@ C O N T A C T
 	margin-top: 15px;
 }
 
+
 .img-paris {
 	display: block;
-	height: 546px;
+	min-height: 100%;
 	max-width: 100%;
 	margin: auto;
 }
 
 
-@media (max-width: 766px) {
+@media (max-width: 574px) {
 	.img-paris {
 		display: none;
 	}
