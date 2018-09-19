@@ -8,6 +8,9 @@
 .navbar-nav {
     font-size: 20px;
 }
+.navbar-menu{
+    text-align: center;
+}
 
 @media (max-width: 800px) {
     .navbar-brand {

@@ -29,7 +29,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarMenu">
 
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto navbar-menu">
               <li class="nav-item">
                 <a href="enigme-page.html" class="nav-link"> L'énigme du mois </a>
               </li>
@@ -553,7 +553,7 @@
     E N I G M E  P R é C é D E N T E
     ################################
     -->
-    <div class="container-fluid">
+    <div class="container-fluid container-enigme-prec">
       <div class="alert alert-secondary alerte_enigme_prec" role="alert">
         <h2>L'énigme précédente </h2>
       </div>
@@ -942,20 +942,10 @@
         </div>
       </section>
      <div class="row justify-content-center past-enig-pre">
-        <div class="col-lg-3 col- btn-see-more justify-content-center "><button type="button" class="btn btn-primary btn-lg"data-toggle="collapse">Voir les mois précédents</button></div>
-      </div>
-    
-    
-    
-    <!-- SCROLL TOP -->
-			<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
-    <!-- FIN SCROLL -->
-    
-    
-    
-    
+        <div class="col-lg-3 col- btn-see-more justify-content-center ">
+          <button type="button" class="btn btn-dark btn-lg"data-toggle="collapse" data-target="#see-more">Voir les mois précédents</button></div>
+        </div>    
       <!--
-     
     <div class="row justify-content-center past-enig-pre">
         <div class="col-lg-3 col- btn-see-more justify-content-center ">
           <button type="button" class="btn btn-primary btn-lg" href="#see-more" aria-expanded="false" aria-controls="see-more"data-toggle="collapse">Voir les mois précédents</button>
@@ -1356,7 +1346,7 @@
 
              </div>
              <div class="col-lg-3 col- btn-see-more justify-content-center ">
-                <button type="button" class="btn btn-primary btn-lg" href="#see-more" aria-expanded="false" aria-controls="see-more"data-toggle="collapse">  Voir Moins  </button>
+                <button type="button" class="btn btn-dark" href="#see-more" aria-expanded="false" aria-controls="see-more"data-toggle="collapse">  Voir Moins </button>
             </div>
             <!-- Fin see more -->
 
@@ -1365,7 +1355,9 @@
        
     </div>
     </div>
-    
+     <!-- SCROLL TOP -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+    <!-- FIN SCROLL -->
     <!--
     ############
     F O O T E R
