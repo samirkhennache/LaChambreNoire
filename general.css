@@ -321,9 +321,9 @@ Scroll
 Fin Scroll
 */
 /***************
-  page enigle
+  page enigme
 ****************/
-/**
+/*
 ##############################
 CSS ENIGME EN COURS ----------
 ##############################
@@ -430,47 +430,16 @@ CSS ENIGME EN COURS ----------
 	padding-right: 0;
 	padding-left: 0;
 }
-.encours_maps
+.maps_enigme_en_cours
 {
 	position: relative;
+	height: 550px;
+	width: 100%;
+	margin: 0 0 35px 0;
 }
-#number_indice1
+.maps_absolute
 {
 	position: absolute;
-	top: 48%;
-	left: 50%;
-}
-#number_indice2
-{
-	position: absolute;
-	top: 8%;
-	right: 33%;
-}
-#number_indice3
-{
-	position: absolute;
-	bottom: 17%;
-	right: 45%;
-}
-#number_indice4
-{
-	position: absolute;
-	top: 60%;
-	left: 25%;
-}
-#number_indice5
-{
-	position: absolute;
-	bottom: 8%;
-	left: 45%;
-}
-.number_indice_hover
-{
-	transition: 0.3s all ease;
-}
-.number_indice_hover:hover
-{
-	opacity: 0.7;
 }
 #carouselExampleControls-encours
 {
@@ -483,6 +452,7 @@ CSS ENIGME EN COURS ----------
 	margin: 0;
 	padding: 0;
 }
+
 /*
 ##############################
 CSS ENIGME PRECEDENTE --------------------------------------------------------------------------------------------------------------
@@ -598,6 +568,11 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	background-color: grey;
 	 opacity: 0.4;
 }
+/*
+#############
+MEDIA QUERIES ENIGMES EN COURS ET PRECEDENTES
+#############
+*/
 @media (min-width: 1201px)
 {
 	.modal-dialog
@@ -611,19 +586,32 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	{
 		min-width: 900px;
 	}
+	.maps_enigme_en_cours
+	{
+		height: 400px;
+	}
 }
 @media (min-width: 769px) and (max-width: 992px)
 {
 	.modal-dialog
 	{
 		min-width: 700px;
-	} 
+
+	}
+	.maps_enigme_en_cours
+	{
+		height: 400px;
+	}
 }
 @media (min-width: 576px) and (max-width: 768px)
 {
 	.modal-dialog
 	{
 		min-width: 400px;
+	}
+	.maps_enigme_en_cours
+	{
+		height: 350px;
 	}
 }
 @media (max-width: 575px)
@@ -632,6 +620,10 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	{
 		max-width: 400px;
 		margin: auto;		
+	}
+	.maps_enigme_en_cours
+	{
+		height: 300px;
 	}
 }
 @media (max-width: 768px)
