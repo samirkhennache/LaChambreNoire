@@ -38,7 +38,15 @@ C O N C E P T
 .centrer_photo {
     display: block;
     margin: auto;
-    max-width: 100%
+	max-width: 100%;
+	height: 375px;
+}
+
+.centrer_number {
+    display: block;
+    margin: auto;
+	max-width: 100%;
+	height: 64px;
 }
 
 #title_roles {
@@ -66,7 +74,7 @@ C O N T A C T
 .contact {
 	display: block;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 5px;
 }
 
 .contact h2 {
