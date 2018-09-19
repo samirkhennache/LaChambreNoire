@@ -6,7 +6,6 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="compiled/flipclock.css"> <!-- Script pour le compte a rebour -->
       <link rel="stylesheet" href="general.css">
-      <link rel="stylesheet" href="egnime-page.css">
       <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
       
       <title>La Chambre Noire - enigmes</title>
@@ -38,7 +37,7 @@
                 > Enigmes résolues </a>
               </li>
               <li class="nav-item">
-                <a href="concept_contact.html" class="nav-link"> Règles du jeu </a>
+                <a href="concept_contact.html#concept" class="nav-link"> Règles du jeu </a>
               </li>
               <li class="nav-item" >
                 <a href="concept_contact.html#contact" class="nav-link"> Votre solution </a>
@@ -430,7 +429,9 @@
             </div>
             <!--#### FIN 12 ####-->      
           </div><!--end div row photos enigme en cours-->
-          <!--####### CARTE ENIGME EN COURS #######-->
+     	</div><!--end div d-none d-block-->
+
+          <!--####### CARTE ENIGME EN COURS 1 #######
           <div class="row no-gutters-enigme d-none d-md-block encours_photos_enigme">
             <div class="col-12 encours_indice_enigme encours_maps">
               <img class="carte_cours_img" src="images/carte_enigme.png" alt="#"/>
@@ -465,9 +466,7 @@
                 </div>
               </a>
             </div>
-          </div><!--end MAPS-->
-
-        </div><!--end div d-none d-block-->
+          </div>END MAPS 1-->
       </section>
       
       
@@ -508,8 +507,19 @@
         E N D CARROUSEL
         ###############
         -->
+
+        <!--####### CARTE ENIGME EN COURS 2 #######-->
+        <div class="maps_enigme_en_cours" >
+        	<!-- <div class="maps_cache"></div> -->
+         	<iframe class="maps_absolute" src="https://www.google.com/maps/d/embed?mid=1KMVIKgHS16P9GlCBoIMyoMlGeftSmg-H" width="100%" height="100%"></iframe>
+         	<!-- <div class="maps_cache2"></div> -->
+      	</div>
+
+
+          <!--####### END CARTE ENIGME EN COURS 2 #######-->
+
         <!--####### CARTE ENIGME EN COURS #######-->
-        <div class="row no-gutters-enigme encours_photos_enigme d-sm-block d-md-none">
+       <!--  <div class="row no-gutters-enigme encours_photos_enigme d-sm-block d-md-none">
           <div class="col-12 encours_indice_enigme encours_maps">
             <img class="carte_cours_img" src="images/carte_enigme.png" alt="#"/>
             <a href="#encours_myModal1" data-toggle="modal" data-target="#encours_myModal1">
@@ -543,7 +553,7 @@
               </div>
             </a>
           </div>
-        </div><!--end MAPS-->
+        </div> --><!--end MAPS-->
 
       </section>   
 
@@ -554,16 +564,18 @@
     E N I G M E  P R é C é D E N T E
     ################################
     -->
-    <div class="container-fluid container-enigme-prec">
-      <div class="alert alert-secondary alerte_enigme_prec" role="alert">
+    <div id="enigne_du_mois_precedent" class="alert alert-secondary alerte_enigme_prec" role="alert">
         <h2>L'énigme précédente </h2>
       </div>
-      <div id="enigne_du_mois_precedent" class="row past-enig-pre"> 
+    <div class="container-fluid container-enigme-prec">
+      <div  class="row past-enig-pre"> 
 
         <!--présentation de l'énigme du mois prédédent-->
         <div class="col-lg-12 col-sm-12 col-xs-12">
-          <h3>Titre de l'énigme</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipisci</p>
+          <h3>Le mystère de la butte Montmartre</h3>
+          <p>Dans ce jeu de piste, improvisez-vous détective et aidez la police à cerner la personnalité d’un cambrioleur hors norme. Il vous faudra rivaliser avec l’esprit de déduction d’un Sherlock Holmes ou d’un Hercule Poirot pour récolter suffisamment d’indices et découvrir l’auteur de ces vols en série et autres délits.</p>
+          <p>Voilà les faits…</p>
+          <p>Depuis quelques mois, un mystérieux cambrioleur donne du fil à retordre au commissariat du XVIIIème arrondissement de Paris. L’affaire est un véritable casse-tête. Une série de vol sans cohérence met Paris en émoi ! Montmartrois et touristes se passionnent pour ce cambrioleur hors norme.</p>
         </div>
       </div>
       <!--fin de la présentation-->
@@ -584,7 +596,8 @@
           <img src="images/Abdou-Rahim.png" alt=".img-gagnant" class="img-gagnant rounded-circle">
         </div><!--historique de l'énigme prédédente-->
         <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12 last-winner">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enimLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Le mystère de la butte Montmartre: Le concept est génial!</p>
+          <p>Le concept est génial: une petite histoire fil conducteur, on se distrait tout en apprenant quelques generalités et anecdotes sur le quartier.</p>
         </div>
       </div>
         <!--fin de la présentation-->
@@ -920,18 +933,20 @@
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 prec_indice_enigme">
               <div class="clue">
-                <a href="#" data-toggle="modal" data-target="#myModal12-prec">
+                <a href="#" class="indice_hover" data-toggle="modal" data-target="#myModal10-prec">
                   <div class="background_hover2"></div>
                     <div class="clue_number">
-                      <p class="white_color">Map</p>
+                      <p class="white_color">Carte</p>
+                      <img src="images/zoom.png" alt="#"/>
                     </div>
                 </a>
+                <img class="prec_img_enigme" src="images/carte_enigme_prec.png" alt="#"/>
                 <div class="modal fade " id="myModal12-prec">
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                     
                       <div class="card justify-content-center">
-                         <img class="card-img-top" src="images/find_image.jpg" alt="Card image">
+                         <img class="card-img-top" src="images/carte_enigme_prec.png" alt="Card image">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <a class="button_prev" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal11-prec"><img class="button_chevron" src="images/left-chevron.png" alt="#"/></a>
                         <a class="button_next" href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal1-prec"><img class="button_chevron" src="images/right-chevron.png" alt="#"/></a>
@@ -942,6 +957,13 @@
               </div>
         </div>
       </section>
+
+      	<div class="d-sm-block d-md-none maps_enigme_en_cours">
+        	<!-- <div class="maps_cache"></div> -->
+         	<iframe class="maps_absolute" src="https://www.google.com/maps/d/embed?mid=1KMVIKgHS16P9GlCBoIMyoMlGeftSmg-H" width="100%" height="100%"></iframe>
+         	<!-- <div class="maps_cache2"></div> -->
+      	</div>
+
      <div class="row justify-content-center past-enig-pre">
         <div class="col-lg-3 col- btn-see-more justify-content-center ">
           <button type="button" class="btn btn-dark btn-lg"data-toggle="collapse" data-target="#see-more">Voir les mois précédents</button></div>
@@ -1339,11 +1361,7 @@
                       </div>
                     </div>
               </div>
-            </section>
-            
-
-
-           
+            </section>           
 
              </div>
              <div class="col-lg-3 col- btn-see-more justify-content-center ">
@@ -1359,48 +1377,55 @@
      <!-- SCROLL TOP -->
       <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
     <!-- FIN SCROLL -->
-    <!--
-    ############
-    F O O T E R
-    ############
-    -->
 
-        <div class="footer_body pt-4">
-          <footer class="row justify-content-center align-items-center">
-            <div class="col-md-4 footer_column">
-              <div class="row footer_column1 justify-content-center">
-                <div class="col-md-12 col-lg-5">
-                  <a href="enigme-page.html">L'énigme du mois</a>
-                  <a href="concept_contact.html">Règles du jeu</a>
-                </div>
-                <div class="col-md-12 col-lg-5">
-                  <a href="concept_contact.html#contact">Votre réponse</a>
-                  <a href="about.html">Le maitre du jeu</a>
-                </div>
-              </div>
+              <!--
+      ############
+      F O O T E R
+      ############
+      -->
+
+      <div class="footer_body pt-4">
+      <footer class="row justify-content-center align-items-center ml-0 mr-0">
+        <div class="col-md-4 footer_column ml-0 mr-0">
+          <div class="row footer_column1 justify-content-center ml-0 mr-0">
+            <div class="">
+              <ul>
+                <li><a href="enigme-page.html">L'énigme du mois</a></li>
+                <li><a href="concept_contact.html">Règles du jeu</a></li>
+                <li><a href="concept_contact.html#contact">Votre réponse</a></li>
+                <li><a href="about.html">Le maitre du jeu</a></li>
+              </ul>
             </div>
-            <div class="col-md-4 footer_column footer_social_opacity">
-              <p class="footer_marginp2">La chambre noire sur les réseaux sociaux</p>
-              <a href="#"><img src="images/facebook.png" alt="#"/></a>
-              <a href="#"><img src="images/instagram.png" alt="#"/></a>
-              <a href="#"><img src="images/twitter.png" alt="#"/></a>
-            </div>
-            <div class="col-md-12 col-lg-4 footer_column">
-              <p class="footer_marginp2">Recevez les derniers indices par mail</p>
-    
-              <form method="post" action="#" class="footer_form">
-                <input class="footer_input" type="text" name="e-mail" id="e-mail" placeholder="@"/>
-                <input class="footer_input" type="submit" value="Envoyer"/>
-              </form>
-    
-            </div>
-          </footer>
-          <div class="row align-items-center footer2">
-              <div class="col-12 footer_column">
-                <p class="footer_marginp">2018 - Alpaga | Plan du site | Mentions légales</p>
-              </div>
           </div>
         </div>
+        <div class="col-md-4 footer_column footer_social_opacity ml-0 mr-0">
+          <p class="footer_marginp2 ml-0 mr-0">La chambre noire sur les réseaux sociaux</p>
+          <a href="#"><img src="images/facebook.png" alt="#"/></a>
+          <a href="#"><img src="images/instagram.png" alt="#"/></a>
+          <a href="#"><img src="images/twitter.png" alt="#"/></a>
+        </div>
+        <div class="col-md-12 col-lg-4 footer_column ml-0 mr-0">
+          <p class="footer_marginp2 ml-0 mr-0">Recevez les derniers indices par mail</p>
+
+        <form method="post" action="#" class="footer_form ml-0 mr-0">
+          <input class="footer_input" type="text" name="e-mail" id="e-mail" placeholder="@"/>
+          <input class="footer_input" type="submit" value="Envoyer"/>
+        </form>
+      </div>
+        </div>
+      </footer>
+      <div class="row align-items-center footer2 ml-0 mr-0">
+        <div class="col-12 footer_column ml-0 mr-0">
+          <p class="footer_marginp">2018 - Alpaga | Plan du site | Mentions légales</p>
+        </div>
+      </div>
+      </div>  
+  <!--
+      ############
+      F I N  F O O T E R
+      ############
+  --> 
+
     </div><!--end fiv container fluid-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
