@@ -12,6 +12,9 @@ h2 {
 .navbar-nav {
     font-size: 20px;
 }
+.navbar-menu-about{
+    text-align: center;
+}
 
 @media (max-width: 800px) {
     .navbar-brand {
