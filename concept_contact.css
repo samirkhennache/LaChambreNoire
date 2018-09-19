@@ -28,6 +28,11 @@ F I N  H E A D E R
 /*************
 C O N C E P T 
 **************/
+.titre_h2_concept h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
 .centrer_photo {
     display: block;
     margin: auto;
@@ -47,6 +52,11 @@ F I N  C O N C E P T
 /************* 
 C O N T A C T 	
 **************/
+.titre_h2_solution h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
 .display-none {
 	display: none;
   }
