@@ -664,10 +664,10 @@ MEDIA QUERIES ENIGMES EN COURS ET PRECEDENTES
 /*************
 C O N C E P T 
 **************/
-.titre_h2_concept h2{
-	text-align: center;
-	font-weight: bold;
-	font-size: 2em;
+.titre_h2_concept {
+	text-align: center !important;
+	font-weight: bold !important;
+	font-size: 2em !important;
 }
 
 .centrer_photo {
@@ -753,9 +753,8 @@ C O N T A C T
 
 .img-paris {
 	display: block;
-	min-height: 100%;
-	max-width: 100%;
 	margin: auto;
+	max-height: 600px;
 }
 
 
@@ -782,6 +781,13 @@ F I N  C O N T A C T
 
 /**** PAGE ABOUT.HTML *****/
 
+.card {
+	border: none !important;
+}
+.card-img-top {
+	width: 80px;
+	height: 80px;
+}
 .container-about{
 	margin: 0;
 	padding: 0;
@@ -795,7 +801,6 @@ F I N  C O N T A C T
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .line-about {
 	background-color: #F2F2F2;
 }
