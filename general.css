@@ -67,35 +67,35 @@ h2 {
     }
 }
 
-@media all and (max-width: 629px) {
+@media all and (max-width: 649px) {
     .index-no-wrap-clock {
         zoom: 0.8;
         transform: scale(0.8);
     }
 }
 
-@media all and (max-width: 563px) {
+@media all and (max-width: 578px) {
     .index-no-wrap-clock {
         zoom: 0.7;
         transform: scale(0.7);
     }
 }
 
-@media all and (max-width: 495px) {
+@media all and (max-width: 515px) {
     .index-no-wrap-clock {
         zoom: 0.6;
         transform: scale(0.6);
     }
 }
 
-@media all and (max-width: 429px) {
+@media all and (max-width: 444px) {
     .index-no-wrap-clock {
         zoom: 0.5;
         transform: scale(0.5);
     }
 }
 
-@media all and (max-width: 365px) {
+@media all and (max-width: 380px) {
     .index-compte-rebour-hideMyClock {
         display: none !important;
     }
@@ -103,25 +103,25 @@ h2 {
 
 /**** SHOW/HIDE TEXT AROUND THE CLOCK ****/
 
-@media all and (max-width: 1077px) {
+@media all and (max-width: 1087px) {
     .index-compte-rebour-hideMyText-gauche {
         display: none;
     }
 }
 
-@media all and (max-width: 1077px) {
+@media all and (max-width: 1087px) {
     .index-compte-rebour-hideMyText-droite {
         display: none;
     }
 }
 
-@media all and (min-width: 1077px) {
+@media all and (min-width: 1087px) {
     .index-compte-rebour-showMyText {
         display: none;
     }
 }
 
-@media all and (max-width: 1077px) {
+@media all and (max-width: 1087px) {
     .index-compte-rebour-showMyText {
         display: inherit;
     }
