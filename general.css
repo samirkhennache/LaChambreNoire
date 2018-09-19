@@ -1,8 +1,25 @@
+/*CRITERES GENERAUX*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+p
+{
+	font-family: 'Open Sans';
+	font-size: 16px;
+}
+footer a
+{
+	font-family: 'Open Sans';
+}
+.margin_general
+{
+	padding: 25px 25px 25px 25px;
+}
+/*FIN CRITERES GENERAUX*/
+
 /**** MENU ****/
 h2 {
 	font-family: 'Quicksand', sans-serif ;
 }
-
 
 .navbar-brand {
     width:250px;
@@ -328,6 +345,10 @@ Fin Scroll
 CSS ENIGME EN COURS ----------
 ##############################
 */
+.center_general
+{
+	
+}
 .titre_h2_enigme h2
 {
 	/*padding-top: ;*/
@@ -505,7 +526,7 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
   color:#fff;
   opacity:1;
 }
-.card{
+.card-image-enigme{
 	width: 100%;
 	height: auto;
 }
