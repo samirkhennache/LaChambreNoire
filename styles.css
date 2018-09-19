@@ -11,7 +11,13 @@
 .navbar-menu{
     text-align: center;
 }
+.nav-link:hover  {
 
+    font-weight: bold;
+}
+#first-element{
+    font-weight: bold;
+}
 @media (max-width: 800px) {
     .navbar-brand {
         width:165px;
