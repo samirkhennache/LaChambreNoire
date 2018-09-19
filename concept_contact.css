@@ -13,7 +13,9 @@ H E A D E R
 .navbar-nav {
     font-size: 20px;
 }
-
+.navbar-menu-concept{
+    text-align: center;
+}
 @media (max-width: 800px) {
     .navbar-brand {
         width:165px;

@@ -8,6 +8,9 @@
 .navbar-nav {
     font-size: 20px;
 }
+.navbar-menu{
+    text-align: center;
+}
 
 @media (max-width: 800px) {
     .navbar-brand {
@@ -172,16 +175,36 @@ h2 {
     padding-right: 1em;
 }
 
+.winner_wildo {
+    font-family: 'Kaushan Script', cursive;
+}
+
 .winner_signature{
 	text-align: right;
-	color: blue;
+    color: #5A6268;
+    margin-bottom: 0px; 
+}
+
+.winner_photo {
+    box-shadow:10px 10px 50px grey;  
 }
 
 @media all and (max-width: 767px) {
-.winner_photo {
-    max-width: 60%;
+    .winner_gardien {
+        padding-bottom: 1em;
+        }
+    .winner_photo {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        max-width: 60%;
+            }
+    .btn_margin {
+        margin-bottom: 1em;
     }
-}
+    .index_margin_title {
+        margin-bottom: 1em;
+    }
+    }
 
 .winner-box-soumettre {
     padding-right: 1.7em !important;
@@ -195,6 +218,30 @@ h2 {
     padding-bottom: 20%;
 }
 
+.winner_call_to_action {
+    font-size: 1.5em;
+}
+
+@media all and (max-width: 285px) {
+    .winner_call_to_action {
+        font-size: 1.3em;
+    }
+    
+}
+
+@media all and (max-width: 245px) {
+    .winner_call_to_action {
+        font-size: 1em;
+    }
+    
+}
+
+@media all and (min-width: 767px) and (max-width: 885px) {
+    .winner_call_to_action {
+        font-size: 1.3em;
+    }
+    
+}
 
 @media all and (max-width: 767px) {
     .winner_soumettre {
