@@ -1,8 +1,25 @@
+/*CRITERES GENERAUX*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+p
+{
+	font-family: 'Open Sans';
+	font-size: 16px;
+}
+footer a
+{
+	font-family: 'Open Sans';
+}
+.margin_general
+{
+	padding: 25px 25px 25px 25px;
+}
+/*FIN CRITERES GENERAUX*/
+
 /**** MENU ****/
 h2 {
 	font-family: 'Quicksand', sans-serif ;
 }
-
 
 .navbar-brand {
     width:250px;
@@ -50,35 +67,35 @@ h2 {
     }
 }
 
-@media all and (max-width: 629px) {
+@media all and (max-width: 649px) {
     .index-no-wrap-clock {
         zoom: 0.8;
         transform: scale(0.8);
     }
 }
 
-@media all and (max-width: 563px) {
+@media all and (max-width: 578px) {
     .index-no-wrap-clock {
         zoom: 0.7;
         transform: scale(0.7);
     }
 }
 
-@media all and (max-width: 495px) {
+@media all and (max-width: 515px) {
     .index-no-wrap-clock {
         zoom: 0.6;
         transform: scale(0.6);
     }
 }
 
-@media all and (max-width: 429px) {
+@media all and (max-width: 444px) {
     .index-no-wrap-clock {
         zoom: 0.5;
         transform: scale(0.5);
     }
 }
 
-@media all and (max-width: 365px) {
+@media all and (max-width: 380px) {
     .index-compte-rebour-hideMyClock {
         display: none !important;
     }
@@ -86,25 +103,25 @@ h2 {
 
 /**** SHOW/HIDE TEXT AROUND THE CLOCK ****/
 
-@media all and (max-width: 1077px) {
+@media all and (max-width: 1087px) {
     .index-compte-rebour-hideMyText-gauche {
         display: none;
     }
 }
 
-@media all and (max-width: 1077px) {
+@media all and (max-width: 1087px) {
     .index-compte-rebour-hideMyText-droite {
         display: none;
     }
 }
 
-@media all and (min-width: 1077px) {
+@media all and (min-width: 1087px) {
     .index-compte-rebour-showMyText {
         display: none;
     }
 }
 
-@media all and (max-width: 1077px) {
+@media all and (max-width: 1087px) {
     .index-compte-rebour-showMyText {
         display: inherit;
     }
@@ -328,6 +345,10 @@ Fin Scroll
 CSS ENIGME EN COURS ----------
 ##############################
 */
+.center_general
+{
+	
+}
 .titre_h2_enigme h2
 {
 	/*padding-top: ;*/
@@ -505,7 +526,7 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
   color:#fff;
   opacity:1;
 }
-.card{
+.card-image-enigme{
 	width: 100%;
 	height: auto;
 }
@@ -806,6 +827,14 @@ F I N  C O N T A C T
 		text-align: center;
 	}
 }
+
+@media all and (min-width: 990px) and (max-width: 1250px) {
+	.about-hide {
+		display: none;)
+	}
+}
+
+
  /*******************
      Fin About      
   ******************/
