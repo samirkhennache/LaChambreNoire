@@ -660,7 +660,19 @@ C O N C E P T
     display: block;
     margin: auto;
 	max-width: 100%;
-	height: 375px;
+}
+
+.concept-texte-droite {
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+@media all and (max-width: 767px) {
+	.concept-texte-droite {
+		padding-right: 1em;
+		padding-left: 1em;
+		padding-top: 1em;
+	}
 }
 
 .centrer_number {
