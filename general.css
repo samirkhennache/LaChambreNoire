@@ -399,6 +399,14 @@ CSS ENIGME EN COURS ----------
 	width: 100%;
 	height: 100%;
 }
+.background_hover3
+{
+	position: absolute;
+	background-color: black;
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+}
 .clue_number img
 {
 	width: 50px;
@@ -696,6 +704,29 @@ MEDIA QUERIES ENIGMES EN COURS ET PRECEDENTES
 		width: 100px;
 		margin: auto;
 		text-align: center;
+	}
+}
+@media (max-width: 991px)
+{
+	.image_back_white
+	{
+		display: none;
+	}
+	.background_hover2
+	{
+		background-color: rgb(255, 255, 255);
+		opacity: 0.4;
+	}
+	.white_color
+	{
+		color: rgb(60, 60, 60);
+	}
+}
+@media (min-width: 992px)
+{
+	.image_back-gris
+	{
+		display: none;
 	}
 }
 /****************
