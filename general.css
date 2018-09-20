@@ -14,6 +14,10 @@ footer a
 {
 	padding: 25px 25px 25px 25px;
 }
+.padding_cotes_general
+{
+	padding: 0 25px 0 25px;
+}
 /*FIN CRITERES GENERAUX*/
 
 /**** MENU ****/
@@ -496,17 +500,47 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	margin-top: 20px;
 }
 /* display flex pour alligenr l'image au centre */
-.last-winner{
-	display: flex;
-	flex-direction:column;
-	align-items: center;
+.gagnant_mois_prec_h4
+{
+	text-align: left;
 }
-.img-gagnant{
+.last-winner
+{
+	/*border: 1px solid black;*/
+	padding-bottom: 30px;
+}
+.border_commentaire_gagnant
+{
+	/*border: 1px solid red;*/
+}
+.col_commentaire_gagnant
+{
+	/*border: 1px solid red;*/
+	padding: 5px 15px 5px 5px;
+}
+.titre_commentaire_gagnant
+{
+	padding-top: 15px;
+	text-align: left;
+}
+.titre_commentaire_gagnant h5
+{
+	/*border: 1px solid green;*/
+}
+.nom_gagnant_enigme
+{
+	margin-top: -5px;
+	/*border:1px solid green;*/
+	text-align: left;
+	font-style: italic;
+}
+.img-gagnant
+{
 	 
-	width:100%;
-	height: auto;
-	margin-bottom: 10px;}
-
+	width: 100%;
+	margin: auto;
+	display: block;
+}
 .carousel-past-img{
 	width:80%;
 	height: auto;
@@ -656,13 +690,13 @@ MEDIA QUERIES ENIGMES EN COURS ET PRECEDENTES
 		height: 300px;
 	}
 }
-@media (max-width: 768px)
+@media (max-width: 576px)
 {
-	/* ajuter la taille de l'image */
-	.img-gagnant{
-	width:60%;
-	height: auto;
-	margin-bottom: 10px;}
+	.img-gagnant
+	{
+		width: 100px;
+		margin: auto;
+		text-align: center;
 	}
 }
 /****************
