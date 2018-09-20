@@ -548,6 +548,7 @@ CSS ENIGME PRECEDENTE ----------------------------------------------------------
 	width: 100%;
 	margin: auto;
 	display: block;
+	height: auto;
 }
 .carousel-past-img{
 	width:80%;
@@ -705,6 +706,7 @@ MEDIA QUERIES ENIGMES EN COURS ET PRECEDENTES
 		width: 100px;
 		margin: auto;
 		text-align: center;
+		height: auto;
 	}
 }
 @media (max-width: 991px)
@@ -953,7 +955,7 @@ F I N  C O N T A C T
 
 @media all and (max-width: 768px) {
 	.text-about {
-		text-align: center;
+		text-align: left;
 	}
 }
 
@@ -1040,6 +1042,7 @@ F O O T E R
 .footer_column img
 {
 	width: 40px;
+	height: auto;
 	margin: 0 10px 0 10px;
 }
 footer
