@@ -956,7 +956,7 @@ F I N  C O N T A C T
 
 @media all and (max-width: 768px) {
 	.text-about {
-		text-align: center;
+		text-align: left;
 	}
 }
 
