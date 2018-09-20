@@ -693,18 +693,25 @@ C O N C E P T
     display: block;
     margin: auto;
 	max-width: 100%;
-	height: 64px;
+	height: 44px;
 }
 
 .defi {
 	font-size: 20px;
 }
 
-#title_roles {
-	text-align: center;
+.regle-du-jeu {
 	margin-top: 20px;
+	text-align: center;
+}
+#title_roles {
 	font-size: 22px;
 }
+
+.icone-double {
+	height: 40px;
+}
+
 
 /*******************
 F I N  C O N C E P T 
