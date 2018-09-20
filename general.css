@@ -762,6 +762,7 @@ C O N C E P T
 		padding-right: 1em;
 		padding-left: 1em;
 		padding-top: 1em;
+		margin-left: 0 !important;
 	}
 }
 
@@ -787,6 +788,8 @@ C O N C E P T
 .icone-double {
 	height: 40px;
 }
+
+
 
 /* Animation flèche */
   
